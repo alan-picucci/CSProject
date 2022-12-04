@@ -1,0 +1,145 @@
+{
+  "helicopter": {
+    "classifiers": {
+      "axis-aligned": {
+        "stats": {
+          "nodes": 6339,
+          "inner nodes": 3169,
+          "paths": 3170,
+          "bandwidth": 12
+        },
+        "time": "00:03:02.617"
+      },
+      "lin-logreg": {
+        "stats": {
+          "nodes": 3769,
+          "inner nodes": 1884,
+          "paths": 1885,
+          "bandwidth": 11
+        },
+        "time": "00:32:50.595"
+      },
+      "lin-svm": {
+        "stats": {
+          "nodes": 5787,
+          "inner nodes": 2893,
+          "paths": 2894,
+          "bandwidth": 12
+        },
+        "time": "00:07:41.333"
+      },
+      "lin-oc1": "timeout",
+      "poly": {
+        "stats": {
+          "nodes": 5035,
+          "inner nodes": 2517,
+          "paths": 2518,
+          "bandwidth": 12
+        },
+        "time": "00:20:00.150"
+      },
+      "polyPrio1": {
+        "stats": {
+          "nodes": 3787,
+          "inner nodes": 1893,
+          "paths": 1894,
+          "bandwidth": 11
+        },
+        "time": "00:21:56.466"
+      },
+      "axis-aligned-minEntropy": {
+        "stats": {
+          "nodes": 9649,
+          "inner nodes": 4824,
+          "paths": 4825,
+          "bandwidth": 13
+        },
+        "time": "00:02:29.278"
+      },
+      "poly-minEntropy": "timeout",
+      "polyPrio1-minEntropy": "timeout",
+      "lin-logreg-minEntropy": {
+        "stats": {
+          "nodes": 4637,
+          "inner nodes": 2318,
+          "paths": 2319,
+          "bandwidth": 12
+        },
+        "time": "01:15:03.940"
+      },
+      "lin-svm-minEntropy": {
+        "stats": {
+          "nodes": 9763,
+          "inner nodes": 4881,
+          "paths": 4882,
+          "bandwidth": 13
+        },
+        "time": "00:21:46.025"
+      },
+      "lin-oc1-minEntropy": "timeout"
+    },
+    "metadata": {
+      "X_metadata": {
+        "categorical": [],
+        "min_outer": [
+          -0.1,
+          -1.5,
+          -0.1,
+          -0.4,
+          -1.25,
+          -1.0
+        ],
+        "max_outer": [
+          0.1,
+          1.5,
+          0.1,
+          0.4,
+          1.25,
+          1.0
+        ],
+        "min_inner": [
+          -0.05000000074505806,
+          -1.4500000476837158,
+          -0.05000000074505806,
+          -0.30000001192092896,
+          -1.2000000476837158,
+          -0.25
+        ],
+        "max_inner": [
+          0.05000000074505806,
+          1.4500000476837158,
+          0.05000000074505806,
+          0.20000000298023224,
+          1.2000000476837158,
+          0.25
+        ],
+        "step_size": [
+          0.05,
+          0.05,
+          0.05,
+          0.1,
+          0.05,
+          0.25
+        ]
+      },
+      "Y_metadata": {
+        "variables": [
+          "u_0",
+          "u_1"
+        ],
+        "min": [
+          0.0
+        ],
+        "max": [
+          20.0
+        ],
+        "step_size": [
+          5.0,
+          10.0
+        ],
+        "num_rows": 280539,
+        "num_flattened": 561078
+      }
+    }
+  }
+}

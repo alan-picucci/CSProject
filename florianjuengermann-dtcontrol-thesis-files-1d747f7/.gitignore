@@ -1,0 +1,5 @@
+.dtcontrol_tmp
+**/.benchmark_suite/**
+**/*.dump
+**/*.scs
+**/*.storm.json

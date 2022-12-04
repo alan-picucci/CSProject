@@ -1,0 +1,28 @@
+digraph {
+0 [label="-1e-06*d*vE\n+0.499986*vE²\n-7e-06*vE*vF\n-0.499978*vF²\n-1.99992*d\n+11.999519*vE\n-9.999601*vF\n+31.00059 <= 0"];
+1 [label="vE <= -9.0"];
+2 [label="d <= 7.5"];
+3 [label="-0.055029*d²\n+0.071538*d*vE\n-0.018266*d*vF\n+0.029071*vE*vF\n+0.016151*vF²\n-0.715377*d\n-0.290712*vF\n+5.003746 <= 0"];
+4 [label="[0, 2]"];
+3 -> 4 [label="True"];
+5 [label="0"];
+3 -> 5 [style="dashed", label="False"];
+2 -> 3 [label="True"];
+6 [label="[0, 2]"];
+2 -> 6 [style="dashed", label="False"];
+1 -> 2 [label="True"];
+7 [label="vE <= 19.0"];
+8 [label="-2e-05*d²\n+0.000424*d*vE\n-0.499115*vE²\n-0.000252*d*vF\n+0.002652*vE*vF\n+0.496187*vF²\n+1.988201*d\n-13.920312*vE\n+9.941737*vF\n-54.661714 <= 0"];
+9 [label="[0, -2]"];
+8 -> 9 [label="True"];
+10 [label="[0, -2, 2]"];
+8 -> 10 [style="dashed", label="False"];
+7 -> 8 [label="True"];
+11 [label="[0, -2]"];
+7 -> 11 [style="dashed", label="False"];
+1 -> 7 [style="dashed", label="False"];
+0 -> 1 [label="True"];
+12 [label="-2"];
+0 -> 12 [style="dashed", label="False"];
+
+}
