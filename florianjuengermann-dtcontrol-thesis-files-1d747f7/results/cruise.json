@@ -1,0 +1,198 @@
+{
+  "cruise_250": {
+    "classifiers": {
+      "poly-lowrank": {
+        "stats": {
+          "nodes": 655,
+          "inner nodes": 327,
+          "paths": 328,
+          "bandwidth": 9
+        },
+        "time": "00:01:07.874"
+      },
+      "poly-lowrank-minEntropy": {
+        "stats": {
+          "nodes": 13,
+          "inner nodes": 6,
+          "paths": 7,
+          "bandwidth": 3
+        },
+        "time": "00:00:37.950"
+      }
+    },
+    "metadata": {
+      "X_metadata": {
+        "variables": [
+          "eChoose",
+          "fChoose",
+          "d",
+          "vE",
+          "aE",
+          "vF",
+          "aF"
+        ],
+        "categorical": [],
+        "min_inner": [
+          1.0,
+          0.0,
+          6.0,
+          -6.0,
+          -2.0,
+          -6.0,
+          -2.0
+        ],
+        "min_outer": [
+          1.0,
+          0.0,
+          6.0,
+          -6.0,
+          -2.0,
+          -6.0,
+          -2.0
+        ],
+        "max_inner": [
+          1.0,
+          0.0,
+          276.0,
+          20.0,
+          2.0,
+          20.0,
+          2.0
+        ],
+        "max_outer": [
+          1.0,
+          0.0,
+          276.0,
+          20.0,
+          2.0,
+          20.0,
+          2.0
+        ],
+        "step_size": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "Y_metadata": {
+        "variables": [
+          "accelerationEgo"
+        ],
+        "min": [
+          -2
+        ],
+        "max": [
+          2
+        ],
+        "step_size": [
+          2
+        ],
+        "num_rows": 320523,
+        "num_flattened": 961569,
+        "num_unique_labels": 5
+      }
+    }
+  },
+  "cruise_300": {
+    "classifiers": {
+      "poly-lowrank": {
+        "stats": {
+          "nodes": 919,
+          "inner nodes": 459,
+          "paths": 460,
+          "bandwidth": 9
+        },
+        "time": "00:01:49.253"
+      },
+      "poly-lowrank-minEntropy": {
+        "stats": {
+          "nodes": 333,
+          "inner nodes": 166,
+          "paths": 167,
+          "bandwidth": 8
+        },
+        "time": "00:01:51.565"
+      }
+    },
+    "metadata": {
+      "X_metadata": {
+        "variables": [
+          "eChoose",
+          "fChoose",
+          "d",
+          "vE",
+          "aE",
+          "vF",
+          "aF"
+        ],
+        "categorical": [],
+        "min_inner": [
+          1.0,
+          0.0,
+          6.0,
+          -10.0,
+          -2.0,
+          -10.0,
+          -2.0
+        ],
+        "min_outer": [
+          1.0,
+          0.0,
+          6.0,
+          -10.0,
+          -2.0,
+          -10.0,
+          -2.0
+        ],
+        "max_inner": [
+          1.0,
+          0.0,
+          330.0,
+          20.0,
+          2.0,
+          20.0,
+          2.0
+        ],
+        "max_outer": [
+          1.0,
+          0.0,
+          330.0,
+          20.0,
+          2.0,
+          20.0,
+          2.0
+        ],
+        "step_size": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "Y_metadata": {
+        "variables": [
+          "accelerationEgo"
+        ],
+        "min": [
+          -2
+        ],
+        "max": [
+          2
+        ],
+        "step_size": [
+          2
+        ],
+        "num_rows": 500920,
+        "num_flattened": 1502760,
+        "num_unique_labels": 5
+      }
+    }
+  }
+}
