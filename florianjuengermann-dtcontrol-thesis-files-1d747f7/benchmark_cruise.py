@@ -36,7 +36,7 @@ lin_oc1 = OC1SplittingStrategy()
 poly = PolynomialClassifierSplittingStrategy(prettify=False)
 poly.priority = 0.1
 poly_lowrank= LowRankPolynomialClassifierSplittingStrategy(prettify=False) #(Alan+Giacomo): Here we have added our new splitting strategy 
-poly_lowrank.priority=0.1 #(Alan+Giacomo): Here we can choose the "priority" variable for our splitting strategy. This variable is used when we compare the impurity measure of the polynomial split with the axis aligned split, since we compare: polynomialsplit_impurity/priority with axisaligned_impurity. Therefore, with a priority of 1, the impurities are compared directly.
+poly_lowrank.priority=1 #(Alan+Giacomo): Here we can choose the "priority" variable for our splitting strategy. This variable is used when we compare the impurity measure of the polynomial split with the axis aligned split, since we compare: polynomialsplit_impurity/priority with axisaligned_impurity. Therefore, with a priority of 1, the impurities are compared directly.
 polyPrio1 = PolynomialClassifierSplittingStrategy(prettify=False)
 polyPrio1.priority = 1.0
 

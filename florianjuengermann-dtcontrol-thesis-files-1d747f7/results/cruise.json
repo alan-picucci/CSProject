@@ -1,0 +1,206 @@
+{
+  "cruise_250": {
+    "classifiers": {
+      "poly": {
+        "stats": {
+          "nodes": 347,
+          "inner nodes": 173,
+          "paths": 174,
+          "bandwidth": 8
+        },
+        "time": "00:00:44.272"
+      },
+      "poly-lowrank": {
+        "stats": {
+          "nodes": 43,
+          "inner nodes": 21,
+          "paths": 22,
+          "bandwidth": 5,
+          "k=1": 0,
+          "k=2": 0,
+          "k=3": 0,
+          "k=4": 13
+        },
+        "time": "00:00:52.225"
+      }
+    },
+    "metadata": {
+      "X_metadata": {
+        "variables": [
+          "eChoose",
+          "fChoose",
+          "d",
+          "vE",
+          "aE",
+          "vF",
+          "aF"
+        ],
+        "categorical": [],
+        "min_inner": [
+          1.0,
+          0.0,
+          6.0,
+          -6.0,
+          -2.0,
+          -6.0,
+          -2.0
+        ],
+        "min_outer": [
+          1.0,
+          0.0,
+          6.0,
+          -6.0,
+          -2.0,
+          -6.0,
+          -2.0
+        ],
+        "max_inner": [
+          1.0,
+          0.0,
+          276.0,
+          20.0,
+          2.0,
+          20.0,
+          2.0
+        ],
+        "max_outer": [
+          1.0,
+          0.0,
+          276.0,
+          20.0,
+          2.0,
+          20.0,
+          2.0
+        ],
+        "step_size": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "Y_metadata": {
+        "variables": [
+          "accelerationEgo"
+        ],
+        "min": [
+          -2
+        ],
+        "max": [
+          2
+        ],
+        "step_size": [
+          2
+        ],
+        "num_rows": 320523,
+        "num_flattened": 961569,
+        "num_unique_labels": 5
+      }
+    }
+  },
+  "cruise_300": {
+    "classifiers": {
+      "poly": {
+        "stats": {
+          "nodes": 509,
+          "inner nodes": 254,
+          "paths": 255,
+          "bandwidth": 8
+        },
+        "time": "00:01:07.328"
+      },
+      "poly-lowrank": {
+        "stats": {
+          "nodes": 213,
+          "inner nodes": 106,
+          "paths": 107,
+          "bandwidth": 7,
+          "k=1": 0,
+          "k=2": 2,
+          "k=3": 5,
+          "k=4": 24
+        },
+        "time": "00:01:21.276"
+      }
+    },
+    "metadata": {
+      "X_metadata": {
+        "variables": [
+          "eChoose",
+          "fChoose",
+          "d",
+          "vE",
+          "aE",
+          "vF",
+          "aF"
+        ],
+        "categorical": [],
+        "min_inner": [
+          1.0,
+          0.0,
+          6.0,
+          -10.0,
+          -2.0,
+          -10.0,
+          -2.0
+        ],
+        "min_outer": [
+          1.0,
+          0.0,
+          6.0,
+          -10.0,
+          -2.0,
+          -10.0,
+          -2.0
+        ],
+        "max_inner": [
+          1.0,
+          0.0,
+          330.0,
+          20.0,
+          2.0,
+          20.0,
+          2.0
+        ],
+        "max_outer": [
+          1.0,
+          0.0,
+          330.0,
+          20.0,
+          2.0,
+          20.0,
+          2.0
+        ],
+        "step_size": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "Y_metadata": {
+        "variables": [
+          "accelerationEgo"
+        ],
+        "min": [
+          -2
+        ],
+        "max": [
+          2
+        ],
+        "step_size": [
+          2
+        ],
+        "num_rows": 500920,
+        "num_flattened": 1502760,
+        "num_unique_labels": 5
+      }
+    }
+  }
+}

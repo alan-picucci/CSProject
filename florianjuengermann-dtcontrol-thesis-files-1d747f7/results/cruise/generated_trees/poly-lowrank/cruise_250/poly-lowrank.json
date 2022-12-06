@@ -1,0 +1,976 @@
+{
+    "actual_label": null,
+    "children": [
+        {
+            "actual_label": null,
+            "children": [
+                {
+                    "actual_label": null,
+                    "children": [
+                        {
+                            "actual_label": null,
+                            "children": [
+                                {
+                                    "actual_label": [
+                                        "0",
+                                        "2"
+                                    ],
+                                    "children": [],
+                                    "split": null,
+                                    "edge_label": "true"
+                                },
+                                {
+                                    "actual_label": [
+                                        "0"
+                                    ],
+                                    "children": [],
+                                    "split": null,
+                                    "edge_label": "false"
+                                }
+                            ],
+                            "split": {
+                                "lhs": [
+                                    {
+                                        "coeff": -0.05479107256307637,
+                                        "var": "d^2"
+                                    },
+                                    {
+                                        "coeff": 0.11871399055333279,
+                                        "var": "d*vE"
+                                    },
+                                    {
+                                        "coeff": 3.054995351174277e-16,
+                                        "var": "vE^2"
+                                    },
+                                    {
+                                        "coeff": -0.0327835141736395,
+                                        "var": "d*vF"
+                                    },
+                                    {
+                                        "coeff": 0.04296524113445799,
+                                        "var": "vE*vF"
+                                    },
+                                    {
+                                        "coeff": 0.025779144680674944,
+                                        "var": "vF^2"
+                                    },
+                                    {
+                                        "coeff": -0.7122839433200022,
+                                        "var": "d"
+                                    },
+                                    {
+                                        "coeff": -3.6929016068707144e-15,
+                                        "var": "vE"
+                                    },
+                                    {
+                                        "coeff": -0.25779144680674937,
+                                        "var": "vF"
+                                    },
+                                    {
+                                        "intercept": 8.258283518332528
+                                    }
+                                ],
+                                "op": "<=",
+                                "rhs": 0
+                            },
+                            "edge_label": "true"
+                        },
+                        {
+                            "actual_label": [
+                                "0",
+                                "2"
+                            ],
+                            "children": [],
+                            "split": null,
+                            "edge_label": "false"
+                        }
+                    ],
+                    "split": {
+                        "lhs": {
+                            "coeff": 1,
+                            "var": "d"
+                        },
+                        "op": "<=",
+                        "rhs": 7.5
+                    },
+                    "edge_label": "true"
+                },
+                {
+                    "actual_label": null,
+                    "children": [
+                        {
+                            "actual_label": null,
+                            "children": [
+                                {
+                                    "actual_label": null,
+                                    "children": [
+                                        {
+                                            "actual_label": null,
+                                            "children": [
+                                                {
+                                                    "actual_label": [
+                                                        "0",
+                                                        "-2"
+                                                    ],
+                                                    "children": [],
+                                                    "split": null,
+                                                    "edge_label": "true"
+                                                },
+                                                {
+                                                    "actual_label": [
+                                                        "0",
+                                                        "-2",
+                                                        "2"
+                                                    ],
+                                                    "children": [],
+                                                    "split": null,
+                                                    "edge_label": "false"
+                                                }
+                                            ],
+                                            "split": {
+                                                "lhs": [
+                                                    {
+                                                        "coeff": -3.113691192112835e-05,
+                                                        "var": "d^2"
+                                                    },
+                                                    {
+                                                        "coeff": 0.0005943970784873135,
+                                                        "var": "d*vE"
+                                                    },
+                                                    {
+                                                        "coeff": -0.5017580669239388,
+                                                        "var": "vE^2"
+                                                    },
+                                                    {
+                                                        "coeff": -0.00039960828323162313,
+                                                        "var": "d*vF"
+                                                    },
+                                                    {
+                                                        "coeff": 0.003619959473470032,
+                                                        "var": "vE*vF"
+                                                    },
+                                                    {
+                                                        "coeff": 0.4979765438917025,
+                                                        "var": "vF^2"
+                                                    },
+                                                    {
+                                                        "coeff": 1.997593840492783,
+                                                        "var": "d"
+                                                    },
+                                                    {
+                                                        "coeff": -9.995808296130873,
+                                                        "var": "vE"
+                                                    },
+                                                    {
+                                                        "coeff": 5.998209415011811,
+                                                        "var": "vF"
+                                                    },
+                                                    {
+                                                        "intercept": -38.944578683317914
+                                                    }
+                                                ],
+                                                "op": "<=",
+                                                "rhs": 0
+                                            },
+                                            "edge_label": "true"
+                                        },
+                                        {
+                                            "actual_label": [
+                                                "0",
+                                                "-2"
+                                            ],
+                                            "children": [],
+                                            "split": null,
+                                            "edge_label": "false"
+                                        }
+                                    ],
+                                    "split": {
+                                        "lhs": {
+                                            "coeff": 1,
+                                            "var": "vE"
+                                        },
+                                        "op": "<=",
+                                        "rhs": 19.0
+                                    },
+                                    "edge_label": "true"
+                                },
+                                {
+                                    "actual_label": null,
+                                    "children": [
+                                        {
+                                            "actual_label": null,
+                                            "children": [
+                                                {
+                                                    "actual_label": [
+                                                        "0",
+                                                        "-2",
+                                                        "2"
+                                                    ],
+                                                    "children": [],
+                                                    "split": null,
+                                                    "edge_label": "true"
+                                                },
+                                                {
+                                                    "actual_label": [
+                                                        "0",
+                                                        "-2"
+                                                    ],
+                                                    "children": [],
+                                                    "split": null,
+                                                    "edge_label": "false"
+                                                }
+                                            ],
+                                            "split": {
+                                                "lhs": [
+                                                    {
+                                                        "coeff": -8.944791612666211e-05,
+                                                        "var": "d^2"
+                                                    },
+                                                    {
+                                                        "coeff": 0.001787343825675765,
+                                                        "var": "d*vE"
+                                                    },
+                                                    {
+                                                        "coeff": 0.4988175610377067,
+                                                        "var": "vE^2"
+                                                    },
+                                                    {
+                                                        "coeff": -0.0010807021804675923,
+                                                        "var": "d*vF"
+                                                    },
+                                                    {
+                                                        "coeff": 0.011008546374735743,
+                                                        "var": "vE*vF"
+                                                    },
+                                                    {
+                                                        "coeff": -0.511185783299756,
+                                                        "var": "vF^2"
+                                                    },
+                                                    {
+                                                        "coeff": -2.0321816170151745,
+                                                        "var": "d"
+                                                    },
+                                                    {
+                                                        "coeff": 10.167795081332724,
+                                                        "var": "vE"
+                                                    },
+                                                    {
+                                                        "coeff": -6.102016511060898,
+                                                        "var": "vF"
+                                                    },
+                                                    {
+                                                        "intercept": 39.61845763053854
+                                                    }
+                                                ],
+                                                "op": "<=",
+                                                "rhs": 0
+                                            },
+                                            "edge_label": "true"
+                                        },
+                                        {
+                                            "actual_label": [
+                                                "0",
+                                                "-2"
+                                            ],
+                                            "children": [],
+                                            "split": null,
+                                            "edge_label": "false"
+                                        }
+                                    ],
+                                    "split": {
+                                        "lhs": {
+                                            "coeff": 1,
+                                            "var": "vE"
+                                        },
+                                        "op": "<=",
+                                        "rhs": 19.0
+                                    },
+                                    "edge_label": "false"
+                                }
+                            ],
+                            "split": {
+                                "lhs": [
+                                    {
+                                        "coeff": 0.0003699170723574838,
+                                        "var": "d^2"
+                                    },
+                                    {
+                                        "coeff": -0.0004614958238473361,
+                                        "var": "d*vE"
+                                    },
+                                    {
+                                        "coeff": 0.018200206941923282,
+                                        "var": "vE^2"
+                                    },
+                                    {
+                                        "coeff": 0.008367543853112381,
+                                        "var": "d*vF"
+                                    },
+                                    {
+                                        "coeff": -0.05353364018292352,
+                                        "var": "vE*vF"
+                                    },
+                                    {
+                                        "coeff": 0.0170049279458765,
+                                        "var": "vF^2"
+                                    },
+                                    {
+                                        "coeff": -0.2391909895196433,
+                                        "var": "d"
+                                    },
+                                    {
+                                        "coeff": 1.3261827554931553,
+                                        "var": "vE"
+                                    },
+                                    {
+                                        "coeff": -0.963747112986497,
+                                        "var": "vF"
+                                    },
+                                    {
+                                        "intercept": 3.9462097038236235
+                                    }
+                                ],
+                                "op": "<=",
+                                "rhs": 0
+                            },
+                            "edge_label": "true"
+                        },
+                        {
+                            "actual_label": [
+                                "-2"
+                            ],
+                            "children": [],
+                            "split": null,
+                            "edge_label": "false"
+                        }
+                    ],
+                    "split": {
+                        "lhs": [
+                            {
+                                "coeff": 9.976532231730253e-06,
+                                "var": "d^2"
+                            },
+                            {
+                                "coeff": -0.00019109732929008756,
+                                "var": "d*vE"
+                            },
+                            {
+                                "coeff": 0.5019325566947214,
+                                "var": "vE^2"
+                            },
+                            {
+                                "coeff": 0.00012644006803149818,
+                                "var": "d*vF"
+                            },
+                            {
+                                "coeff": -0.0012289245895083976,
+                                "var": "vE*vF"
+                            },
+                            {
+                                "coeff": -0.5006312879866078,
+                                "var": "vF^2"
+                            },
+                            {
+                                "coeff": -2.0038192575398295,
+                                "var": "d"
+                            },
+                            {
+                                "coeff": 8.013818755280896,
+                                "var": "vE"
+                            },
+                            {
+                                "coeff": -6.0099887154593645,
+                                "var": "vF"
+                            },
+                            {
+                                "intercept": 23.046794886011327
+                            }
+                        ],
+                        "op": "<=",
+                        "rhs": 0
+                    },
+                    "edge_label": "false"
+                }
+            ],
+            "split": {
+                "lhs": {
+                    "coeff": 1,
+                    "var": "vE"
+                },
+                "op": "<=",
+                "rhs": -5.0
+            },
+            "edge_label": "true"
+        },
+        {
+            "actual_label": null,
+            "children": [
+                {
+                    "actual_label": null,
+                    "children": [
+                        {
+                            "actual_label": [
+                                "0",
+                                "2"
+                            ],
+                            "children": [],
+                            "split": null,
+                            "edge_label": "true"
+                        },
+                        {
+                            "actual_label": null,
+                            "children": [
+                                {
+                                    "actual_label": null,
+                                    "children": [
+                                        {
+                                            "actual_label": null,
+                                            "children": [
+                                                {
+                                                    "actual_label": [
+                                                        "0",
+                                                        "-2",
+                                                        "2"
+                                                    ],
+                                                    "children": [],
+                                                    "split": null,
+                                                    "edge_label": "true"
+                                                },
+                                                {
+                                                    "actual_label": [
+                                                        "0",
+                                                        "-2"
+                                                    ],
+                                                    "children": [],
+                                                    "split": null,
+                                                    "edge_label": "false"
+                                                }
+                                            ],
+                                            "split": {
+                                                "lhs": [
+                                                    {
+                                                        "coeff": -0.0010009987915992349,
+                                                        "var": "d^2"
+                                                    },
+                                                    {
+                                                        "coeff": 0.01337107412179062,
+                                                        "var": "d*vE"
+                                                    },
+                                                    {
+                                                        "coeff": 0.4674265391205639,
+                                                        "var": "vE^2"
+                                                    },
+                                                    {
+                                                        "coeff": -0.012388923243385188,
+                                                        "var": "d*vF"
+                                                    },
+                                                    {
+                                                        "coeff": 0.09327983274562551,
+                                                        "var": "vE*vF"
+                                                    },
+                                                    {
+                                                        "coeff": -0.5561885055203668,
+                                                        "var": "vF^2"
+                                                    },
+                                                    {
+                                                        "coeff": -2.008692681058675,
+                                                        "var": "d"
+                                                    },
+                                                    {
+                                                        "coeff": 9.98426260592063,
+                                                        "var": "vE"
+                                                    },
+                                                    {
+                                                        "coeff": -5.959079391883625,
+                                                        "var": "vF"
+                                                    },
+                                                    {
+                                                        "intercept": 39.86273366153851
+                                                    }
+                                                ],
+                                                "op": "<=",
+                                                "rhs": 0
+                                            },
+                                            "edge_label": "true"
+                                        },
+                                        {
+                                            "actual_label": null,
+                                            "children": [
+                                                {
+                                                    "actual_label": null,
+                                                    "children": [
+                                                        {
+                                                            "actual_label": [
+                                                                "0",
+                                                                "-2",
+                                                                "2"
+                                                            ],
+                                                            "children": [],
+                                                            "split": null,
+                                                            "edge_label": "true"
+                                                        },
+                                                        {
+                                                            "actual_label": [
+                                                                "0",
+                                                                "-2"
+                                                            ],
+                                                            "children": [],
+                                                            "split": null,
+                                                            "edge_label": "false"
+                                                        }
+                                                    ],
+                                                    "split": {
+                                                        "lhs": [
+                                                            {
+                                                                "coeff": -0.0024695377923669047,
+                                                                "var": "d^2"
+                                                            },
+                                                            {
+                                                                "coeff": -0.04392192940292729,
+                                                                "var": "d*vE"
+                                                            },
+                                                            {
+                                                                "coeff": 4.92980174657622e-16,
+                                                                "var": "vE^2"
+                                                            },
+                                                            {
+                                                                "coeff": -0.03657946306077544,
+                                                                "var": "d*vF"
+                                                            },
+                                                            {
+                                                                "coeff": -0.13535722260942723,
+                                                                "var": "vE*vF"
+                                                            },
+                                                            {
+                                                                "coeff": -0.1895001116532005,
+                                                                "var": "vF^2"
+                                                            },
+                                                            {
+                                                                "coeff": -0.6149070116408368,
+                                                                "var": "d"
+                                                            },
+                                                            {
+                                                                "coeff": -9.148969744951967e-14,
+                                                                "var": "vE"
+                                                            },
+                                                            {
+                                                                "coeff": -1.8950011165320197,
+                                                                "var": "vF"
+                                                            },
+                                                            {
+                                                                "intercept": 221.86047042229686
+                                                            }
+                                                        ],
+                                                        "op": "<=",
+                                                        "rhs": 0
+                                                    },
+                                                    "edge_label": "true"
+                                                },
+                                                {
+                                                    "actual_label": [
+                                                        "0",
+                                                        "-2",
+                                                        "2"
+                                                    ],
+                                                    "children": [],
+                                                    "split": null,
+                                                    "edge_label": "false"
+                                                }
+                                            ],
+                                            "split": {
+                                                "lhs": {
+                                                    "coeff": 1,
+                                                    "var": "vF"
+                                                },
+                                                "op": "<=",
+                                                "rhs": 7.0
+                                            },
+                                            "edge_label": "false"
+                                        }
+                                    ],
+                                    "split": {
+                                        "lhs": {
+                                            "coeff": 1,
+                                            "var": "vE"
+                                        },
+                                        "op": "<=",
+                                        "rhs": 13.0
+                                    },
+                                    "edge_label": "true"
+                                },
+                                {
+                                    "actual_label": null,
+                                    "children": [
+                                        {
+                                            "actual_label": null,
+                                            "children": [
+                                                {
+                                                    "actual_label": [
+                                                        "0",
+                                                        "-2"
+                                                    ],
+                                                    "children": [],
+                                                    "split": null,
+                                                    "edge_label": "true"
+                                                },
+                                                {
+                                                    "actual_label": [
+                                                        "0",
+                                                        "-2",
+                                                        "2"
+                                                    ],
+                                                    "children": [],
+                                                    "split": null,
+                                                    "edge_label": "false"
+                                                }
+                                            ],
+                                            "split": {
+                                                "lhs": [
+                                                    {
+                                                        "coeff": -0.004285561199274511,
+                                                        "var": "d^2"
+                                                    },
+                                                    {
+                                                        "coeff": 0.07528103942786185,
+                                                        "var": "d*vE"
+                                                    },
+                                                    {
+                                                        "coeff": -0.9064331730596504,
+                                                        "var": "vE^2"
+                                                    },
+                                                    {
+                                                        "coeff": -0.04052685279527696,
+                                                        "var": "d*vF"
+                                                    },
+                                                    {
+                                                        "coeff": 0.3513656736289603,
+                                                        "var": "vE*vF"
+                                                    },
+                                                    {
+                                                        "coeff": 0.5064706854558318,
+                                                        "var": "vF^2"
+                                                    },
+                                                    {
+                                                        "coeff": 2.424523477609682,
+                                                        "var": "d"
+                                                    },
+                                                    {
+                                                        "coeff": -12.586765905386706,
+                                                        "var": "vE"
+                                                    },
+                                                    {
+                                                        "coeff": 7.392929123104789,
+                                                        "var": "vF"
+                                                    },
+                                                    {
+                                                        "intercept": -45.56863532951857
+                                                    }
+                                                ],
+                                                "op": "<=",
+                                                "rhs": 0
+                                            },
+                                            "edge_label": "true"
+                                        },
+                                        {
+                                            "actual_label": [
+                                                "0",
+                                                "-2"
+                                            ],
+                                            "children": [],
+                                            "split": null,
+                                            "edge_label": "false"
+                                        }
+                                    ],
+                                    "split": {
+                                        "lhs": {
+                                            "coeff": 1,
+                                            "var": "vE"
+                                        },
+                                        "op": "<=",
+                                        "rhs": 19.0
+                                    },
+                                    "edge_label": "false"
+                                }
+                            ],
+                            "split": {
+                                "lhs": [
+                                    {
+                                        "coeff": -0.00021673025710237487,
+                                        "var": "d^2"
+                                    },
+                                    {
+                                        "coeff": -0.004275302997160799,
+                                        "var": "d*vE"
+                                    },
+                                    {
+                                        "coeff": -0.02280247795141865,
+                                        "var": "vE^2"
+                                    },
+                                    {
+                                        "coeff": -0.012403592917307898,
+                                        "var": "d*vF"
+                                    },
+                                    {
+                                        "coeff": 0.07428290362035252,
+                                        "var": "vE*vF"
+                                    },
+                                    {
+                                        "coeff": -0.006701598826180421,
+                                        "var": "vF^2"
+                                    },
+                                    {
+                                        "coeff": 0.37345906294220543,
+                                        "var": "d"
+                                    },
+                                    {
+                                        "coeff": -1.9557574196216856,
+                                        "var": "vE"
+                                    },
+                                    {
+                                        "coeff": 1.3665763011846213,
+                                        "var": "vF"
+                                    },
+                                    {
+                                        "intercept": -6.578801535258921
+                                    }
+                                ],
+                                "op": "<=",
+                                "rhs": 0
+                            },
+                            "edge_label": "false"
+                        }
+                    ],
+                    "split": {
+                        "lhs": {
+                            "coeff": 1,
+                            "var": "vE"
+                        },
+                        "op": "<=",
+                        "rhs": -5.0
+                    },
+                    "edge_label": "true"
+                },
+                {
+                    "actual_label": null,
+                    "children": [
+                        {
+                            "actual_label": null,
+                            "children": [
+                                {
+                                    "actual_label": [
+                                        "0",
+                                        "-2",
+                                        "2"
+                                    ],
+                                    "children": [],
+                                    "split": null,
+                                    "edge_label": "true"
+                                },
+                                {
+                                    "actual_label": [
+                                        "0",
+                                        "-2"
+                                    ],
+                                    "children": [],
+                                    "split": null,
+                                    "edge_label": "false"
+                                }
+                            ],
+                            "split": {
+                                "lhs": [
+                                    {
+                                        "coeff": -0.0006831268274630203,
+                                        "var": "d^2"
+                                    },
+                                    {
+                                        "coeff": 0.01635487468712881,
+                                        "var": "d*vE"
+                                    },
+                                    {
+                                        "coeff": 0.43000477961932293,
+                                        "var": "vE^2"
+                                    },
+                                    {
+                                        "coeff": 0.03578643740021547,
+                                        "var": "d*vF"
+                                    },
+                                    {
+                                        "coeff": -0.23166703181364245,
+                                        "var": "vE*vF"
+                                    },
+                                    {
+                                        "coeff": 0.03233332708414348,
+                                        "var": "vF^2"
+                                    },
+                                    {
+                                        "coeff": -1.8512975511913217,
+                                        "var": "d"
+                                    },
+                                    {
+                                        "coeff": 8.805734985775398,
+                                        "var": "vE"
+                                    },
+                                    {
+                                        "coeff": -1.6470347514653996,
+                                        "var": "vF"
+                                    },
+                                    {
+                                        "intercept": 48.24171448682048
+                                    }
+                                ],
+                                "op": "<=",
+                                "rhs": 0
+                            },
+                            "edge_label": "true"
+                        },
+                        {
+                            "actual_label": [
+                                "-2"
+                            ],
+                            "children": [],
+                            "split": null,
+                            "edge_label": "false"
+                        }
+                    ],
+                    "split": {
+                        "lhs": [
+                            {
+                                "coeff": 9.548926438116928e-05,
+                                "var": "d^2"
+                            },
+                            {
+                                "coeff": 0.0021750516835732647,
+                                "var": "d*vE"
+                            },
+                            {
+                                "coeff": 0.4824809333969836,
+                                "var": "vE^2"
+                            },
+                            {
+                                "coeff": 0.00041198517745317213,
+                                "var": "d*vF"
+                            },
+                            {
+                                "coeff": 0.010234508136416551,
+                                "var": "vE*vF"
+                            },
+                            {
+                                "coeff": -0.49918941026903985,
+                                "var": "vF^2"
+                            },
+                            {
+                                "coeff": -2.02378207092823,
+                                "var": "d"
+                            },
+                            {
+                                "coeff": 8.12215728698975,
+                                "var": "vE"
+                            },
+                            {
+                                "coeff": -6.085452945220485,
+                                "var": "vF"
+                            },
+                            {
+                                "intercept": 23.162518747027082
+                            }
+                        ],
+                        "op": "<=",
+                        "rhs": 0
+                    },
+                    "edge_label": "false"
+                }
+            ],
+            "split": {
+                "lhs": [
+                    {
+                        "coeff": 1.8080454175179866e-05,
+                        "var": "d^2"
+                    },
+                    {
+                        "coeff": 0.002696180158623094,
+                        "var": "d*vE"
+                    },
+                    {
+                        "coeff": -0.006704313681461671,
+                        "var": "vE^2"
+                    },
+                    {
+                        "coeff": 0.00255504125979496,
+                        "var": "d*vF"
+                    },
+                    {
+                        "coeff": -0.008946304805645261,
+                        "var": "vE*vF"
+                    },
+                    {
+                        "coeff": 0.001392933371046358,
+                        "var": "vF^2"
+                    },
+                    {
+                        "coeff": -0.10106219362198247,
+                        "var": "d"
+                    },
+                    {
+                        "coeff": 0.5680648076659905,
+                        "var": "vE"
+                    },
+                    {
+                        "coeff": -0.39814685953323714,
+                        "var": "vF"
+                    },
+                    {
+                        "intercept": 1.2716633745442918
+                    }
+                ],
+                "op": "<=",
+                "rhs": 0
+            },
+            "edge_label": "false"
+        }
+    ],
+    "split": {
+        "lhs": [
+            {
+                "coeff": -3.9309579987077177e-05,
+                "var": "d^2"
+            },
+            {
+                "coeff": 0.0013832058225666214,
+                "var": "d*vE"
+            },
+            {
+                "coeff": -0.026158565325593994,
+                "var": "vE^2"
+            },
+            {
+                "coeff": -0.0007758681855109265,
+                "var": "d*vF"
+            },
+            {
+                "coeff": 0.00715801647154133,
+                "var": "vE*vF"
+            },
+            {
+                "coeff": 0.0029802391262710084,
+                "var": "vF^2"
+            },
+            {
+                "coeff": 0.022722226921773777,
+                "var": "d"
+            },
+            {
+                "coeff": 0.031170873020347368,
+                "var": "vE"
+            },
+            {
+                "coeff": 0.11354005557695593,
+                "var": "vF"
+            },
+            {
+                "intercept": -0.3501279761351033
+            }
+        ],
+        "op": "<=",
+        "rhs": 0
+    }
+}
