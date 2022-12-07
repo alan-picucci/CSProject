@@ -1,15 +1,6 @@
 {
   "cruise_250": {
     "classifiers": {
-      "poly": {
-        "stats": {
-          "nodes": 347,
-          "inner nodes": 173,
-          "paths": 174,
-          "bandwidth": 8
-        },
-        "time": "00:00:44.272"
-      },
       "poly-lowrank": {
         "stats": {
           "nodes": 43,
@@ -21,7 +12,20 @@
           "k=3": 0,
           "k=4": 13
         },
-        "time": "00:00:52.225"
+        "time": "00:00:58.967"
+      },
+      "poly-lowrank-minEntropy": {
+        "stats": {
+          "nodes": 23,
+          "inner nodes": 11,
+          "paths": 12,
+          "bandwidth": 4,
+          "k=1": 0,
+          "k=2": 0,
+          "k=3": 0,
+          "k=4": 6
+        },
+        "time": "00:00:47.909"
       }
     },
     "metadata": {
@@ -103,15 +107,6 @@
   },
   "cruise_300": {
     "classifiers": {
-      "poly": {
-        "stats": {
-          "nodes": 509,
-          "inner nodes": 254,
-          "paths": 255,
-          "bandwidth": 8
-        },
-        "time": "00:01:07.328"
-      },
       "poly-lowrank": {
         "stats": {
           "nodes": 213,
@@ -123,7 +118,20 @@
           "k=3": 5,
           "k=4": 24
         },
-        "time": "00:01:21.276"
+        "time": "00:01:47.891"
+      },
+      "poly-lowrank-minEntropy": {
+        "stats": {
+          "nodes": 377,
+          "inner nodes": 188,
+          "paths": 189,
+          "bandwidth": 8,
+          "k=1": 0,
+          "k=2": 2,
+          "k=3": 7,
+          "k=4": 26
+        },
+        "time": "00:02:02.437"
       }
     },
     "metadata": {
