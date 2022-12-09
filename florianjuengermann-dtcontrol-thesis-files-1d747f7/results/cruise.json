@@ -1,137 +1,57 @@
 {
-  "cruise_250": {
-    "classifiers": {
-      "poly-lowrank": {
-        "stats": {
-          "nodes": 43,
-          "inner nodes": 21,
-          "paths": 22,
-          "bandwidth": 5,
-          "k=1": 0,
-          "k=2": 0,
-          "k=3": 0,
-          "k=4": 13
-        },
-        "time": "00:00:49.349"
-      },
-      "poly-lowrank-minEntropy": {
-        "stats": {
-          "nodes": 23,
-          "inner nodes": 11,
-          "paths": 12,
-          "bandwidth": 4,
-          "k=1": 0,
-          "k=2": 0,
-          "k=3": 0,
-          "k=4": 6
-        },
-        "time": "00:00:38.140"
-      }
-    },
-    "metadata": {
-      "X_metadata": {
-        "variables": [
-          "eChoose",
-          "fChoose",
-          "d",
-          "vE",
-          "aE",
-          "vF",
-          "aF"
-        ],
-        "categorical": [],
-        "min_inner": [
-          1.0,
-          0.0,
-          6.0,
-          -6.0,
-          -2.0,
-          -6.0,
-          -2.0
-        ],
-        "min_outer": [
-          1.0,
-          0.0,
-          6.0,
-          -6.0,
-          -2.0,
-          -6.0,
-          -2.0
-        ],
-        "max_inner": [
-          1.0,
-          0.0,
-          276.0,
-          20.0,
-          2.0,
-          20.0,
-          2.0
-        ],
-        "max_outer": [
-          1.0,
-          0.0,
-          276.0,
-          20.0,
-          2.0,
-          20.0,
-          2.0
-        ],
-        "step_size": [
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1
-        ]
-      },
-      "Y_metadata": {
-        "variables": [
-          "accelerationEgo"
-        ],
-        "min": [
-          -2
-        ],
-        "max": [
-          2
-        ],
-        "step_size": [
-          2
-        ],
-        "num_rows": 320523,
-        "num_flattened": 961569,
-        "num_unique_labels": 5
-      }
-    }
-  },
   "cruise_300": {
     "classifiers": {
       "poly-lowrank": {
         "stats": {
-          "nodes": 213,
-          "inner nodes": 106,
-          "paths": 107,
-          "bandwidth": 7,
+          "nodes": 887,
+          "inner nodes": 443,
+          "paths": 444,
+          "bandwidth": 9,
           "k=1": 0,
-          "k=2": 2,
-          "k=3": 5,
-          "k=4": 24
+          "k=2": 1,
+          "k=3": 15,
+          "k=4": 43
         },
-        "time": "00:01:26.628"
+        "time": "00:01:47.711"
       },
       "poly-lowrank-minEntropy": {
         "stats": {
-          "nodes": 377,
-          "inner nodes": 188,
-          "paths": 189,
+          "nodes": 305,
+          "inner nodes": 152,
+          "paths": 153,
           "bandwidth": 8,
           "k=1": 0,
-          "k=2": 2,
-          "k=3": 7,
-          "k=4": 26
+          "k=2": 0,
+          "k=3": 5,
+          "k=4": 19
         },
-        "time": "00:01:50.981"
+        "time": "00:01:58.148"
+      },
+      "poly-lowrankPrio1": {
+        "stats": {
+          "nodes": 507,
+          "inner nodes": 253,
+          "paths": 254,
+          "bandwidth": 8,
+          "k=1": 0,
+          "k=2": 6,
+          "k=3": 35,
+          "k=4": 30
+        },
+        "time": "00:01:39.106"
+      },
+      "poly-lowrankPrio1-minEntropy": {
+        "stats": {
+          "nodes": 567,
+          "inner nodes": 283,
+          "paths": 284,
+          "bandwidth": 9,
+          "k=1": 0,
+          "k=2": 9,
+          "k=3": 34,
+          "k=4": 31
+        },
+        "time": "00:01:45.204"
       }
     },
     "metadata": {
@@ -207,6 +127,138 @@
         ],
         "num_rows": 500920,
         "num_flattened": 1502760,
+        "num_unique_labels": 5
+      }
+    }
+  },
+  "cruise_250": {
+    "classifiers": {
+      "poly-lowrank": {
+        "stats": {
+          "nodes": 639,
+          "inner nodes": 319,
+          "paths": 320,
+          "bandwidth": 9,
+          "k=1": 0,
+          "k=2": 0,
+          "k=3": 7,
+          "k=4": 40
+        },
+        "time": "00:01:09.414"
+      },
+      "poly-lowrank-minEntropy": {
+        "stats": {
+          "nodes": 13,
+          "inner nodes": 6,
+          "paths": 7,
+          "bandwidth": 3,
+          "k=1": 0,
+          "k=2": 0,
+          "k=3": 0,
+          "k=4": 3
+        },
+        "time": "00:00:36.371"
+      },
+      "poly-lowrankPrio1": {
+        "stats": {
+          "nodes": 13,
+          "inner nodes": 6,
+          "paths": 7,
+          "bandwidth": 3,
+          "k=1": 0,
+          "k=2": 0,
+          "k=3": 0,
+          "k=4": 3
+        },
+        "time": "00:00:42.079"
+      },
+      "poly-lowrankPrio1-minEntropy": {
+        "stats": {
+          "nodes": 13,
+          "inner nodes": 6,
+          "paths": 7,
+          "bandwidth": 3,
+          "k=1": 0,
+          "k=2": 0,
+          "k=3": 0,
+          "k=4": 3
+        },
+        "time": "00:00:35.519"
+      }
+    },
+    "metadata": {
+      "X_metadata": {
+        "variables": [
+          "eChoose",
+          "fChoose",
+          "d",
+          "vE",
+          "aE",
+          "vF",
+          "aF"
+        ],
+        "categorical": [],
+        "min_inner": [
+          1.0,
+          0.0,
+          6.0,
+          -6.0,
+          -2.0,
+          -6.0,
+          -2.0
+        ],
+        "min_outer": [
+          1.0,
+          0.0,
+          6.0,
+          -6.0,
+          -2.0,
+          -6.0,
+          -2.0
+        ],
+        "max_inner": [
+          1.0,
+          0.0,
+          276.0,
+          20.0,
+          2.0,
+          20.0,
+          2.0
+        ],
+        "max_outer": [
+          1.0,
+          0.0,
+          276.0,
+          20.0,
+          2.0,
+          20.0,
+          2.0
+        ],
+        "step_size": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "Y_metadata": {
+        "variables": [
+          "accelerationEgo"
+        ],
+        "min": [
+          -2
+        ],
+        "max": [
+          2
+        ],
+        "step_size": [
+          2
+        ],
+        "num_rows": 320523,
+        "num_flattened": 961569,
         "num_unique_labels": 5
       }
     }

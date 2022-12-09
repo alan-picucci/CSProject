@@ -108,6 +108,19 @@
           "bandwidth": 8
         },
         "time": "00:09:36.433"
+      },
+      "poly-lowrank-minEntropy": {
+        "stats": {
+          "nodes": 145,
+          "inner nodes": 72,
+          "paths": 73,
+          "bandwidth": 7,
+          "k=1": 0,
+          "k=2": 1,
+          "k=3": 22,
+          "k=4": 0
+        },
+        "time": "00:02:56.757"
       }
     },
     "metadata": {

@@ -36,7 +36,9 @@ lin_oc1 = OC1SplittingStrategy()
 poly = PolynomialClassifierSplittingStrategy(prettify=False)
 poly.priority = 0.1
 poly_lowrank= LowRankPolynomialClassifierSplittingStrategy(prettify=False) #(Alan+Giacomo): Here we have added our new splitting strategy 
-poly_lowrank.priority=1 #(Alan+Giacomo): Here we can choose the "priority" variable for our splitting strategy. This variable is used when we compare the impurity measure of the polynomial split with the axis aligned split, since we compare: polynomialsplit_impurity/priority with axisaligned_impurity. Therefore, with a priority of 1, the impurities are compared directly.
+poly_lowrank.priority=0.1 #(Alan+Giacomo): Here we can choose the "priority" variable for our splitting strategy. This variable is used when we compare the impurity measure of the polynomial split with the axis aligned split, since we compare: polynomialsplit_impurity/priority with axisaligned_impurity. Therefore, with a priority of 1, the impurities are compared directly.
+poly_lowrankPrio1= LowRankPolynomialClassifierSplittingStrategy(prettify=False) #(Alan+Giacomo): Here we have added our new splitting strategy 
+poly_lowrankPrio1.priority=1
 polyPrio1 = PolynomialClassifierSplittingStrategy(prettify=False)
 polyPrio1.priority = 1.0
 
@@ -49,16 +51,19 @@ classifiers = [
     #DecisionTree([aa, lin_svm],     entropy,    'lin-svm'),
     #DecisionTree([aa, lin_oc1],     entropy,    'lin-oc1'),
     #DecisionTree([aa, poly],        entropy,    'poly'),
-    DecisionTree([aa, poly_lowrank], entropy, 'poly-lowrank'),
     #DecisionTree([aa, polyPrio1],   entropy,    'polyPrio1'),
+    #DecisionTree([aa, poly_lowrank], entropy, 'poly-lowrank'),
+    #DecisionTree([aa, poly_lowrankPrio1], entropy, 'poly-lowrankPrio1'),
 
     #DecisionTree([aa],              minEntropy, 'axis-aligned-minEntropy'),
     #DecisionTree([aa, lin_logreg],  minEntropy, 'lin-logreg-minEntropy'),
     #DecisionTree([aa, lin_svm],     minEntropy, 'lin-svm-minEntropy'),
     #DecisionTree([aa, lin_oc1],     minEntropy, 'lin-oc1-minEntropy'),
     #DecisionTree([aa, poly],        minEntropy, 'poly-minEntropy'),
-    DecisionTree([aa, poly_lowrank],minEntropy, 'poly-lowrank-minEntropy'),
     #DecisionTree([aa, polyPrio1],   minEntropy, 'polyPrio1-minEntropy'),
+    DecisionTree([aa, poly_lowrank],minEntropy, 'poly-lowrank-minEntropy'),
+    #DecisionTree([aa, poly_lowrankPrio1],minEntropy, 'poly-lowrankPrio1-minEntropy'),
+
 ]
 suite.benchmark(classifiers) #(Alan+Giacomo):: This function is found in "benchmark_suite.py". It produces a decision tree for each combination of splitting strategy (right now we just test our low_rank splitting strategy with the axis-aligned) and dataset (right now these are just cruise250 and cruise300)
 suite.display_html()
