@@ -52,8 +52,8 @@ classifiers = [
     #DecisionTree([aa, lin_oc1],     entropy,    'lin-oc1'),
     #DecisionTree([aa, poly],        entropy,    'poly'),
     #DecisionTree([aa, polyPrio1],   entropy,    'polyPrio1'),
-    #DecisionTree([aa, poly_lowrank], entropy, 'poly-lowrank'),
-    #DecisionTree([aa, poly_lowrankPrio1], entropy, 'poly-lowrankPrio1'),
+    DecisionTree([aa, poly_lowrank], entropy, 'poly-lowrank'),
+    DecisionTree([aa, poly_lowrankPrio1], entropy, 'poly-lowrankPrio1'),
 
     #DecisionTree([aa],              minEntropy, 'axis-aligned-minEntropy'),
     #DecisionTree([aa, lin_logreg],  minEntropy, 'lin-logreg-minEntropy'),
@@ -62,7 +62,7 @@ classifiers = [
     #DecisionTree([aa, poly],        minEntropy, 'poly-minEntropy'),
     #DecisionTree([aa, polyPrio1],   minEntropy, 'polyPrio1-minEntropy'),
     DecisionTree([aa, poly_lowrank],minEntropy, 'poly-lowrank-minEntropy'),
-    #DecisionTree([aa, poly_lowrankPrio1],minEntropy, 'poly-lowrankPrio1-minEntropy'),
+    DecisionTree([aa, poly_lowrankPrio1],minEntropy, 'poly-lowrankPrio1-minEntropy'),
 
 ]
 suite.benchmark(classifiers) #(Alan+Giacomo):: This function is found in "benchmark_suite.py". It produces a decision tree for each combination of splitting strategy (right now we just test our low_rank splitting strategy with the axis-aligned) and dataset (right now these are just cruise250 and cruise300)

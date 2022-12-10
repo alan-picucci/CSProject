@@ -22,11 +22,11 @@ benchmarkName = "cps"
 all_datasets = [
     '10rooms',
     #'aircraft',
-    #'cartpole',
-    #'dcdc',
-    #'helicopter',
-    #'traffic_30m',
-    #'truck_trailer',
+    'cartpole',
+    'dcdc',
+    'helicopter',
+    'traffic_30m',
+    'truck_trailer',
 ]
 NUM_PROCESSES = min(cpu_count()-1, len(all_datasets))
 
@@ -36,7 +36,7 @@ def runBenchmark(dataset):
                            save_folder=f"{baseFolder}/saved_classifiers",
                            output_folder=f"{baseFolder}/generated_trees",
                            benchmark_file=baseFolder,
-                           rerun=False)
+                           rerun=True)
 
     suite.add_datasets(['controllers_cps'], include=[dataset])
 
@@ -64,8 +64,8 @@ def runBenchmark(dataset):
         #DecisionTree([aa, lin_oc1],     entropy,    'lin-oc1'),
         #DecisionTree([aa, poly],        entropy,    'poly'),
         #DecisionTree([aa, polyPrio1],   entropy,    'polyPrio1'),
-        #DecisionTree([aa, poly_lowrank], entropy, 'poly-lowrank'),
-        #DecisionTree([aa, poly_lowrankPrio1], entropy, 'poly-lowrankPrio1'),
+        DecisionTree([aa, poly_lowrank], entropy, 'poly-lowrank'),
+        DecisionTree([aa, poly_lowrankPrio1], entropy, 'poly-lowrankPrio1'),
 
         #DecisionTree([aa],              minEntropy, 'axis-aligned-minEntropy'),
         #DecisionTree([aa, lin_logreg],  minEntropy, 'lin-logreg-minEntropy'),
@@ -74,7 +74,7 @@ def runBenchmark(dataset):
         #DecisionTree([aa, poly],        minEntropy, 'poly-minEntropy'),
         #DecisionTree([aa, polyPrio1],   minEntropy, 'polyPrio1-minEntropy'),
         DecisionTree([aa, poly_lowrank],minEntropy, 'poly-lowrank-minEntropy'),
-        #DecisionTree([aa, poly_lowrankPrio1],minEntropy, 'poly-lowrankPrio1-minEntropy'),
+        DecisionTree([aa, poly_lowrankPrio1],minEntropy, 'poly-lowrankPrio1-minEntropy'),
     ]
     suite.benchmark(classifiers)
     suite.display_html()
