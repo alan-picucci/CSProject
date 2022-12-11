@@ -58,21 +58,21 @@ def runBenchmark(dataset):
     minEntropy = MinLabelEntropy(determinizer=LabelPowersetDeterminizer())
 
     classifiers = [
-        #DecisionTree([aa],              entropy,    'axis-aligned'),
-        #DecisionTree([aa, lin_logreg],  entropy,    'lin-logreg'),
-        #DecisionTree([aa, lin_svm],     entropy,    'lin-svm'),
-        #DecisionTree([aa, lin_oc1],     entropy,    'lin-oc1'),
-        #DecisionTree([aa, poly],        entropy,    'poly'),
-        #DecisionTree([aa, polyPrio1],   entropy,    'polyPrio1'),
+        DecisionTree([aa],              entropy,    'axis-aligned'),
+        DecisionTree([aa, lin_logreg],  entropy,    'lin-logreg'),
+        DecisionTree([aa, lin_svm],     entropy,    'lin-svm'),
+        DecisionTree([aa, lin_oc1],     entropy,    'lin-oc1'),
+        DecisionTree([aa, poly],        entropy,    'poly'),
+        DecisionTree([aa, polyPrio1],   entropy,    'polyPrio1'),
         DecisionTree([aa, poly_lowrank], entropy, 'poly-lowrank'),
         DecisionTree([aa, poly_lowrankPrio1], entropy, 'poly-lowrankPrio1'),
 
-        #DecisionTree([aa],              minEntropy, 'axis-aligned-minEntropy'),
-        #DecisionTree([aa, lin_logreg],  minEntropy, 'lin-logreg-minEntropy'),
-        #DecisionTree([aa, lin_svm],     minEntropy, 'lin-svm-minEntropy'),
-        #DecisionTree([aa, lin_oc1],     minEntropy, 'lin-oc1-minEntropy'),
-        #DecisionTree([aa, poly],        minEntropy, 'poly-minEntropy'),
-        #DecisionTree([aa, polyPrio1],   minEntropy, 'polyPrio1-minEntropy'),
+        DecisionTree([aa],              minEntropy, 'axis-aligned-minEntropy'),
+        DecisionTree([aa, lin_logreg],  minEntropy, 'lin-logreg-minEntropy'),
+        DecisionTree([aa, lin_svm],     minEntropy, 'lin-svm-minEntropy'),
+        DecisionTree([aa, lin_oc1],     minEntropy, 'lin-oc1-minEntropy'),
+        DecisionTree([aa, poly],        minEntropy, 'poly-minEntropy'),
+        DecisionTree([aa, polyPrio1],   minEntropy, 'polyPrio1-minEntropy'),
         DecisionTree([aa, poly_lowrank],minEntropy, 'poly-lowrank-minEntropy'),
         DecisionTree([aa, poly_lowrankPrio1],minEntropy, 'poly-lowrankPrio1-minEntropy'),
     ]

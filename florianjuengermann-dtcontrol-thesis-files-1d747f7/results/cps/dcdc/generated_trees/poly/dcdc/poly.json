@@ -1,0 +1,1925 @@
+{
+    "actual_label": null,
+    "children": [
+        {
+            "actual_label": null,
+            "children": [
+                {
+                    "actual_label": null,
+                    "children": [
+                        {
+                            "actual_label": null,
+                            "children": [
+                                {
+                                    "actual_label": [
+                                        "1.0"
+                                    ],
+                                    "children": [],
+                                    "split": null,
+                                    "edge_label": "true"
+                                },
+                                {
+                                    "actual_label": null,
+                                    "children": [
+                                        {
+                                            "actual_label": null,
+                                            "children": [
+                                                {
+                                                    "actual_label": [
+                                                        "1.0"
+                                                    ],
+                                                    "children": [],
+                                                    "split": null,
+                                                    "edge_label": "true"
+                                                },
+                                                {
+                                                    "actual_label": [
+                                                        "1.0",
+                                                        "2.0"
+                                                    ],
+                                                    "children": [],
+                                                    "split": null,
+                                                    "edge_label": "false"
+                                                }
+                                            ],
+                                            "split": {
+                                                "lhs": {
+                                                    "coeff": 1,
+                                                    "var": 1
+                                                },
+                                                "op": "<=",
+                                                "rhs": 5.508749961853027
+                                            },
+                                            "edge_label": "true"
+                                        },
+                                        {
+                                            "actual_label": [
+                                                "1.0"
+                                            ],
+                                            "children": [],
+                                            "split": null,
+                                            "edge_label": "false"
+                                        }
+                                    ],
+                                    "split": {
+                                        "lhs": {
+                                            "coeff": 1,
+                                            "var": 1
+                                        },
+                                        "op": "<=",
+                                        "rhs": 5.516249656677246
+                                    },
+                                    "edge_label": "false"
+                                }
+                            ],
+                            "split": {
+                                "lhs": {
+                                    "coeff": 1,
+                                    "var": 0
+                                },
+                                "op": "<=",
+                                "rhs": 1.1772500276565552
+                            },
+                            "edge_label": "true"
+                        },
+                        {
+                            "actual_label": null,
+                            "children": [
+                                {
+                                    "actual_label": null,
+                                    "children": [
+                                        {
+                                            "actual_label": [
+                                                "1.0"
+                                            ],
+                                            "children": [],
+                                            "split": null,
+                                            "edge_label": "true"
+                                        },
+                                        {
+                                            "actual_label": null,
+                                            "children": [
+                                                {
+                                                    "actual_label": [
+                                                        "1.0"
+                                                    ],
+                                                    "children": [],
+                                                    "split": null,
+                                                    "edge_label": "true"
+                                                },
+                                                {
+                                                    "actual_label": null,
+                                                    "children": [
+                                                        {
+                                                            "actual_label": [
+                                                                "1.0"
+                                                            ],
+                                                            "children": [],
+                                                            "split": null,
+                                                            "edge_label": "true"
+                                                        },
+                                                        {
+                                                            "actual_label": [
+                                                                "1.0",
+                                                                "2.0"
+                                                            ],
+                                                            "children": [],
+                                                            "split": null,
+                                                            "edge_label": "false"
+                                                        }
+                                                    ],
+                                                    "split": {
+                                                        "lhs": [
+                                                            {
+                                                                "coeff": 53464.52848104644,
+                                                                "var": "x[0]^2"
+                                                            },
+                                                            {
+                                                                "coeff": -2731.4441921337548,
+                                                                "var": "x[0]*x[1]"
+                                                            },
+                                                            {
+                                                                "coeff": 580.7127425833758,
+                                                                "var": "x[1]^2"
+                                                            },
+                                                            {
+                                                                "coeff": 70296.83944293018,
+                                                                "var": "x[0]"
+                                                            },
+                                                            {
+                                                                "coeff": -9267.081721090262,
+                                                                "var": "x[1]"
+                                                            },
+                                                            {
+                                                                "intercept": -105712.55562249964
+                                                            }
+                                                        ],
+                                                        "op": "<=",
+                                                        "rhs": 0
+                                                    },
+                                                    "edge_label": "false"
+                                                }
+                                            ],
+                                            "split": {
+                                                "lhs": {
+                                                    "coeff": 1,
+                                                    "var": 1
+                                                },
+                                                "op": "<=",
+                                                "rhs": 5.508749961853027
+                                            },
+                                            "edge_label": "false"
+                                        }
+                                    ],
+                                    "split": {
+                                        "lhs": [
+                                            {
+                                                "coeff": 27536.529443947587,
+                                                "var": "x[0]^2"
+                                            },
+                                            {
+                                                "coeff": 48914.2496705161,
+                                                "var": "x[0]*x[1]"
+                                            },
+                                            {
+                                                "coeff": -1620.1669660136993,
+                                                "var": "x[1]^2"
+                                            },
+                                            {
+                                                "coeff": -334498.1632071785,
+                                                "var": "x[0]"
+                                            },
+                                            {
+                                                "coeff": -39734.38127183972,
+                                                "var": "x[1]"
+                                            },
+                                            {
+                                                "intercept": 306460.33216152276
+                                            }
+                                        ],
+                                        "op": "<=",
+                                        "rhs": 0
+                                    },
+                                    "edge_label": "true"
+                                },
+                                {
+                                    "actual_label": null,
+                                    "children": [
+                                        {
+                                            "actual_label": [
+                                                "1.0",
+                                                "2.0"
+                                            ],
+                                            "children": [],
+                                            "split": null,
+                                            "edge_label": "true"
+                                        },
+                                        {
+                                            "actual_label": [
+                                                "1.0"
+                                            ],
+                                            "children": [],
+                                            "split": null,
+                                            "edge_label": "false"
+                                        }
+                                    ],
+                                    "split": {
+                                        "lhs": [
+                                            {
+                                                "coeff": -9701.884990871797,
+                                                "var": "x[0]^2"
+                                            },
+                                            {
+                                                "coeff": 338.78149956380037,
+                                                "var": "x[0]*x[1]"
+                                            },
+                                            {
+                                                "coeff": 48.096287471796764,
+                                                "var": "x[1]^2"
+                                            },
+                                            {
+                                                "coeff": -23031.75578916548,
+                                                "var": "x[0]"
+                                            },
+                                            {
+                                                "coeff": 511.5823512648778,
+                                                "var": "x[1]"
+                                            },
+                                            {
+                                                "intercept": 34087.95166253422
+                                            }
+                                        ],
+                                        "op": "<=",
+                                        "rhs": 0
+                                    },
+                                    "edge_label": "false"
+                                }
+                            ],
+                            "split": {
+                                "lhs": {
+                                    "coeff": 1,
+                                    "var": 1
+                                },
+                                "op": "<=",
+                                "rhs": 5.666749954223633
+                            },
+                            "edge_label": "false"
+                        }
+                    ],
+                    "split": {
+                        "lhs": {
+                            "coeff": 1,
+                            "var": 0
+                        },
+                        "op": "<=",
+                        "rhs": 1.1777499914169312
+                    },
+                    "edge_label": "true"
+                },
+                {
+                    "actual_label": null,
+                    "children": [
+                        {
+                            "actual_label": [
+                                "2.0"
+                            ],
+                            "children": [],
+                            "split": null,
+                            "edge_label": "true"
+                        },
+                        {
+                            "actual_label": null,
+                            "children": [
+                                {
+                                    "actual_label": null,
+                                    "children": [
+                                        {
+                                            "actual_label": null,
+                                            "children": [
+                                                {
+                                                    "actual_label": null,
+                                                    "children": [
+                                                        {
+                                                            "actual_label": null,
+                                                            "children": [
+                                                                {
+                                                                    "actual_label": [
+                                                                        "1.0"
+                                                                    ],
+                                                                    "children": [],
+                                                                    "split": null,
+                                                                    "edge_label": "true"
+                                                                },
+                                                                {
+                                                                    "actual_label": [
+                                                                        "1.0",
+                                                                        "2.0"
+                                                                    ],
+                                                                    "children": [],
+                                                                    "split": null,
+                                                                    "edge_label": "false"
+                                                                }
+                                                            ],
+                                                            "split": {
+                                                                "lhs": {
+                                                                    "coeff": 1,
+                                                                    "var": 1
+                                                                },
+                                                                "op": "<=",
+                                                                "rhs": 5.508749961853027
+                                                            },
+                                                            "edge_label": "true"
+                                                        },
+                                                        {
+                                                            "actual_label": [
+                                                                "1.0"
+                                                            ],
+                                                            "children": [],
+                                                            "split": null,
+                                                            "edge_label": "false"
+                                                        }
+                                                    ],
+                                                    "split": {
+                                                        "lhs": {
+                                                            "coeff": 1,
+                                                            "var": 1
+                                                        },
+                                                        "op": "<=",
+                                                        "rhs": 5.618249893188477
+                                                    },
+                                                    "edge_label": "true"
+                                                },
+                                                {
+                                                    "actual_label": null,
+                                                    "children": [
+                                                        {
+                                                            "actual_label": [
+                                                                "1.0"
+                                                            ],
+                                                            "children": [],
+                                                            "split": null,
+                                                            "edge_label": "true"
+                                                        },
+                                                        {
+                                                            "actual_label": null,
+                                                            "children": [
+                                                                {
+                                                                    "actual_label": [
+                                                                        "1.0"
+                                                                    ],
+                                                                    "children": [],
+                                                                    "split": null,
+                                                                    "edge_label": "true"
+                                                                },
+                                                                {
+                                                                    "actual_label": [
+                                                                        "1.0",
+                                                                        "2.0"
+                                                                    ],
+                                                                    "children": [],
+                                                                    "split": null,
+                                                                    "edge_label": "false"
+                                                                }
+                                                            ],
+                                                            "split": {
+                                                                "lhs": [
+                                                                    {
+                                                                        "coeff": 52941.862269407655,
+                                                                        "var": "x[0]^2"
+                                                                    },
+                                                                    {
+                                                                        "coeff": -1814.1799675685318,
+                                                                        "var": "x[0]*x[1]"
+                                                                    },
+                                                                    {
+                                                                        "coeff": -140.13025795344998,
+                                                                        "var": "x[1]^2"
+                                                                    },
+                                                                    {
+                                                                        "coeff": 82307.3481574255,
+                                                                        "var": "x[0]"
+                                                                    },
+                                                                    {
+                                                                        "coeff": -2712.2777531440915,
+                                                                        "var": "x[1]"
+                                                                    },
+                                                                    {
+                                                                        "intercept": -139338.97084250615
+                                                                    }
+                                                                ],
+                                                                "op": "<=",
+                                                                "rhs": 0
+                                                            },
+                                                            "edge_label": "false"
+                                                        }
+                                                    ],
+                                                    "split": {
+                                                        "lhs": {
+                                                            "coeff": 1,
+                                                            "var": 1
+                                                        },
+                                                        "op": "<=",
+                                                        "rhs": 5.5082502365112305
+                                                    },
+                                                    "edge_label": "false"
+                                                }
+                                            ],
+                                            "split": {
+                                                "lhs": [
+                                                    {
+                                                        "coeff": -1681.8961912748205,
+                                                        "var": "x[0]^2"
+                                                    },
+                                                    {
+                                                        "coeff": 18212.780297738555,
+                                                        "var": "x[0]*x[1]"
+                                                    },
+                                                    {
+                                                        "coeff": -616.6310089505417,
+                                                        "var": "x[1]^2"
+                                                    },
+                                                    {
+                                                        "coeff": -96268.5757724538,
+                                                        "var": "x[0]"
+                                                    },
+                                                    {
+                                                        "coeff": -14644.377392766788,
+                                                        "var": "x[1]"
+                                                    },
+                                                    {
+                                                        "intercept": 96934.07048487743
+                                                    }
+                                                ],
+                                                "op": "<=",
+                                                "rhs": 0
+                                            },
+                                            "edge_label": "true"
+                                        },
+                                        {
+                                            "actual_label": null,
+                                            "children": [
+                                                {
+                                                    "actual_label": null,
+                                                    "children": [
+                                                        {
+                                                            "actual_label": null,
+                                                            "children": [
+                                                                {
+                                                                    "actual_label": null,
+                                                                    "children": [
+                                                                        {
+                                                                            "actual_label": [
+                                                                                "1.0"
+                                                                            ],
+                                                                            "children": [],
+                                                                            "split": null,
+                                                                            "edge_label": "true"
+                                                                        },
+                                                                        {
+                                                                            "actual_label": null,
+                                                                            "children": [
+                                                                                {
+                                                                                    "actual_label": null,
+                                                                                    "children": [
+                                                                                        {
+                                                                                            "actual_label": [
+                                                                                                "1.0",
+                                                                                                "2.0"
+                                                                                            ],
+                                                                                            "children": [],
+                                                                                            "split": null,
+                                                                                            "edge_label": "true"
+                                                                                        },
+                                                                                        {
+                                                                                            "actual_label": [
+                                                                                                "1.0"
+                                                                                            ],
+                                                                                            "children": [],
+                                                                                            "split": null,
+                                                                                            "edge_label": "false"
+                                                                                        }
+                                                                                    ],
+                                                                                    "split": {
+                                                                                        "lhs": [
+                                                                                            {
+                                                                                                "coeff": -1093.875647264835,
+                                                                                                "var": "x[0]^2"
+                                                                                            },
+                                                                                            {
+                                                                                                "coeff": -491.52313988446184,
+                                                                                                "var": "x[0]*x[1]"
+                                                                                            },
+                                                                                            {
+                                                                                                "coeff": -154.68498521018395,
+                                                                                                "var": "x[1]^2"
+                                                                                            },
+                                                                                            {
+                                                                                                "coeff": -2609.4220287620706,
+                                                                                                "var": "x[0]"
+                                                                                            },
+                                                                                            {
+                                                                                                "coeff": -1697.031505809374,
+                                                                                                "var": "x[1]"
+                                                                                            },
+                                                                                            {
+                                                                                                "intercept": 22175.546461611964
+                                                                                            }
+                                                                                        ],
+                                                                                        "op": "<=",
+                                                                                        "rhs": 0
+                                                                                    },
+                                                                                    "edge_label": "true"
+                                                                                },
+                                                                                {
+                                                                                    "actual_label": null,
+                                                                                    "children": [
+                                                                                        {
+                                                                                            "actual_label": null,
+                                                                                            "children": [
+                                                                                                {
+                                                                                                    "actual_label": null,
+                                                                                                    "children": [
+                                                                                                        {
+                                                                                                            "actual_label": [
+                                                                                                                "1.0",
+                                                                                                                "2.0"
+                                                                                                            ],
+                                                                                                            "children": [],
+                                                                                                            "split": null,
+                                                                                                            "edge_label": "true"
+                                                                                                        },
+                                                                                                        {
+                                                                                                            "actual_label": [
+                                                                                                                "1.0"
+                                                                                                            ],
+                                                                                                            "children": [],
+                                                                                                            "split": null,
+                                                                                                            "edge_label": "false"
+                                                                                                        }
+                                                                                                    ],
+                                                                                                    "split": {
+                                                                                                        "lhs": [
+                                                                                                            {
+                                                                                                                "coeff": -1093.46358434464,
+                                                                                                                "var": "x[0]^2"
+                                                                                                            },
+                                                                                                            {
+                                                                                                                "coeff": -490.5803380762283,
+                                                                                                                "var": "x[0]*x[1]"
+                                                                                                            },
+                                                                                                            {
+                                                                                                                "coeff": -154.8659536633686,
+                                                                                                                "var": "x[1]^2"
+                                                                                                            },
+                                                                                                            {
+                                                                                                                "coeff": -2631.277802015265,
+                                                                                                                "var": "x[0]"
+                                                                                                            },
+                                                                                                            {
+                                                                                                                "coeff": -1699.3854950732084,
+                                                                                                                "var": "x[1]"
+                                                                                                            },
+                                                                                                            {
+                                                                                                                "intercept": 22171.7735628582
+                                                                                                            }
+                                                                                                        ],
+                                                                                                        "op": "<=",
+                                                                                                        "rhs": 0
+                                                                                                    },
+                                                                                                    "edge_label": "true"
+                                                                                                },
+                                                                                                {
+                                                                                                    "actual_label": null,
+                                                                                                    "children": [
+                                                                                                        {
+                                                                                                            "actual_label": [
+                                                                                                                "1.0"
+                                                                                                            ],
+                                                                                                            "children": [],
+                                                                                                            "split": null,
+                                                                                                            "edge_label": "true"
+                                                                                                        },
+                                                                                                        {
+                                                                                                            "actual_label": [
+                                                                                                                "1.0",
+                                                                                                                "2.0"
+                                                                                                            ],
+                                                                                                            "children": [],
+                                                                                                            "split": null,
+                                                                                                            "edge_label": "false"
+                                                                                                        }
+                                                                                                    ],
+                                                                                                    "split": {
+                                                                                                        "lhs": [
+                                                                                                            {
+                                                                                                                "coeff": 1621.0802315938306,
+                                                                                                                "var": "x[0]^2"
+                                                                                                            },
+                                                                                                            {
+                                                                                                                "coeff": 732.5135438035543,
+                                                                                                                "var": "x[0]*x[1]"
+                                                                                                            },
+                                                                                                            {
+                                                                                                                "coeff": 143.74553374852587,
+                                                                                                                "var": "x[1]^2"
+                                                                                                            },
+                                                                                                            {
+                                                                                                                "coeff": 4015.559810289394,
+                                                                                                                "var": "x[0]"
+                                                                                                            },
+                                                                                                            {
+                                                                                                                "coeff": 1524.6323159947137,
+                                                                                                                "var": "x[1]"
+                                                                                                            },
+                                                                                                            {
+                                                                                                                "intercept": -24921.76113429192
+                                                                                                            }
+                                                                                                        ],
+                                                                                                        "op": "<=",
+                                                                                                        "rhs": 0
+                                                                                                    },
+                                                                                                    "edge_label": "false"
+                                                                                                }
+                                                                                            ],
+                                                                                            "split": {
+                                                                                                "lhs": {
+                                                                                                    "coeff": 1,
+                                                                                                    "var": 1
+                                                                                                },
+                                                                                                "op": "<=",
+                                                                                                "rhs": 5.496250152587891
+                                                                                            },
+                                                                                            "edge_label": "true"
+                                                                                        },
+                                                                                        {
+                                                                                            "actual_label": null,
+                                                                                            "children": [
+                                                                                                {
+                                                                                                    "actual_label": [
+                                                                                                        "1.0"
+                                                                                                    ],
+                                                                                                    "children": [],
+                                                                                                    "split": null,
+                                                                                                    "edge_label": "true"
+                                                                                                },
+                                                                                                {
+                                                                                                    "actual_label": [
+                                                                                                        "1.0",
+                                                                                                        "2.0"
+                                                                                                    ],
+                                                                                                    "children": [],
+                                                                                                    "split": null,
+                                                                                                    "edge_label": "false"
+                                                                                                }
+                                                                                            ],
+                                                                                            "split": {
+                                                                                                "lhs": [
+                                                                                                    {
+                                                                                                        "coeff": 461.5436882433054,
+                                                                                                        "var": "x[0]^2"
+                                                                                                    },
+                                                                                                    {
+                                                                                                        "coeff": 310.88326982497875,
+                                                                                                        "var": "x[0]*x[1]"
+                                                                                                    },
+                                                                                                    {
+                                                                                                        "coeff": 346.013032565436,
+                                                                                                        "var": "x[1]^2"
+                                                                                                    },
+                                                                                                    {
+                                                                                                        "coeff": 1160.6604294612694,
+                                                                                                        "var": "x[0]"
+                                                                                                    },
+                                                                                                    {
+                                                                                                        "coeff": 3813.4258207279067,
+                                                                                                        "var": "x[1]"
+                                                                                                    },
+                                                                                                    {
+                                                                                                        "intercept": -35594.7395131513
+                                                                                                    }
+                                                                                                ],
+                                                                                                "op": "<=",
+                                                                                                "rhs": 0
+                                                                                            },
+                                                                                            "edge_label": "false"
+                                                                                        }
+                                                                                    ],
+                                                                                    "split": {
+                                                                                        "lhs": {
+                                                                                            "coeff": 1,
+                                                                                            "var": 0
+                                                                                        },
+                                                                                        "op": "<=",
+                                                                                        "rhs": 1.2242499589920044
+                                                                                    },
+                                                                                    "edge_label": "false"
+                                                                                }
+                                                                            ],
+                                                                            "split": {
+                                                                                "lhs": {
+                                                                                    "coeff": 1,
+                                                                                    "var": 1
+                                                                                },
+                                                                                "op": "<=",
+                                                                                "rhs": 5.49275016784668
+                                                                            },
+                                                                            "edge_label": "false"
+                                                                        }
+                                                                    ],
+                                                                    "split": {
+                                                                        "lhs": {
+                                                                            "coeff": 1,
+                                                                            "var": 0
+                                                                        },
+                                                                        "op": "<=",
+                                                                        "rhs": 1.2172499895095825
+                                                                    },
+                                                                    "edge_label": "true"
+                                                                },
+                                                                {
+                                                                    "actual_label": null,
+                                                                    "children": [
+                                                                        {
+                                                                            "actual_label": null,
+                                                                            "children": [
+                                                                                {
+                                                                                    "actual_label": null,
+                                                                                    "children": [
+                                                                                        {
+                                                                                            "actual_label": [
+                                                                                                "1.0",
+                                                                                                "2.0"
+                                                                                            ],
+                                                                                            "children": [],
+                                                                                            "split": null,
+                                                                                            "edge_label": "true"
+                                                                                        },
+                                                                                        {
+                                                                                            "actual_label": [
+                                                                                                "1.0"
+                                                                                            ],
+                                                                                            "children": [],
+                                                                                            "split": null,
+                                                                                            "edge_label": "false"
+                                                                                        }
+                                                                                    ],
+                                                                                    "split": {
+                                                                                        "lhs": [
+                                                                                            {
+                                                                                                "coeff": -557.6545401600949,
+                                                                                                "var": "x[0]^2"
+                                                                                            },
+                                                                                            {
+                                                                                                "coeff": -246.88010399895322,
+                                                                                                "var": "x[0]*x[1]"
+                                                                                            },
+                                                                                            {
+                                                                                                "coeff": -168.5118470646435,
+                                                                                                "var": "x[1]^2"
+                                                                                            },
+                                                                                            {
+                                                                                                "coeff": -1299.4595103298211,
+                                                                                                "var": "x[0]"
+                                                                                            },
+                                                                                            {
+                                                                                                "coeff": -1850.5602686029595,
+                                                                                                "var": "x[1]"
+                                                                                            },
+                                                                                            {
+                                                                                                "intercept": 19286.342061540512
+                                                                                            }
+                                                                                        ],
+                                                                                        "op": "<=",
+                                                                                        "rhs": 0
+                                                                                    },
+                                                                                    "edge_label": "true"
+                                                                                },
+                                                                                {
+                                                                                    "actual_label": null,
+                                                                                    "children": [
+                                                                                        {
+                                                                                            "actual_label": null,
+                                                                                            "children": [
+                                                                                                {
+                                                                                                    "actual_label": null,
+                                                                                                    "children": [
+                                                                                                        {
+                                                                                                            "actual_label": [
+                                                                                                                "1.0",
+                                                                                                                "2.0"
+                                                                                                            ],
+                                                                                                            "children": [],
+                                                                                                            "split": null,
+                                                                                                            "edge_label": "true"
+                                                                                                        },
+                                                                                                        {
+                                                                                                            "actual_label": [
+                                                                                                                "1.0"
+                                                                                                            ],
+                                                                                                            "children": [],
+                                                                                                            "split": null,
+                                                                                                            "edge_label": "false"
+                                                                                                        }
+                                                                                                    ],
+                                                                                                    "split": {
+                                                                                                        "lhs": [
+                                                                                                            {
+                                                                                                                "coeff": -1693.9818531804813,
+                                                                                                                "var": "x[0]^2"
+                                                                                                            },
+                                                                                                            {
+                                                                                                                "coeff": -723.9685280395411,
+                                                                                                                "var": "x[0]*x[1]"
+                                                                                                            },
+                                                                                                            {
+                                                                                                                "coeff": -142.41852320359234,
+                                                                                                                "var": "x[1]^2"
+                                                                                                            },
+                                                                                                            {
+                                                                                                                "coeff": -3952.5781318385502,
+                                                                                                                "var": "x[0]"
+                                                                                                            },
+                                                                                                            {
+                                                                                                                "coeff": -1564.4510317620027,
+                                                                                                                "var": "x[1]"
+                                                                                                            },
+                                                                                                            {
+                                                                                                                "intercept": 24854.269516467182
+                                                                                                            }
+                                                                                                        ],
+                                                                                                        "op": "<=",
+                                                                                                        "rhs": 0
+                                                                                                    },
+                                                                                                    "edge_label": "true"
+                                                                                                },
+                                                                                                {
+                                                                                                    "actual_label": null,
+                                                                                                    "children": [
+                                                                                                        {
+                                                                                                            "actual_label": [
+                                                                                                                "1.0"
+                                                                                                            ],
+                                                                                                            "children": [],
+                                                                                                            "split": null,
+                                                                                                            "edge_label": "true"
+                                                                                                        },
+                                                                                                        {
+                                                                                                            "actual_label": [
+                                                                                                                "1.0",
+                                                                                                                "2.0"
+                                                                                                            ],
+                                                                                                            "children": [],
+                                                                                                            "split": null,
+                                                                                                            "edge_label": "false"
+                                                                                                        }
+                                                                                                    ],
+                                                                                                    "split": {
+                                                                                                        "lhs": [
+                                                                                                            {
+                                                                                                                "coeff": 1672.9771555739565,
+                                                                                                                "var": "x[0]^2"
+                                                                                                            },
+                                                                                                            {
+                                                                                                                "coeff": 728.8089610296603,
+                                                                                                                "var": "x[0]*x[1]"
+                                                                                                            },
+                                                                                                            {
+                                                                                                                "coeff": 144.26221016604916,
+                                                                                                                "var": "x[1]^2"
+                                                                                                            },
+                                                                                                            {
+                                                                                                                "coeff": 4008.727325146859,
+                                                                                                                "var": "x[0]"
+                                                                                                            },
+                                                                                                            {
+                                                                                                                "coeff": 1544.730913635561,
+                                                                                                                "var": "x[1]"
+                                                                                                            },
+                                                                                                            {
+                                                                                                                "intercept": -24806.498163008466
+                                                                                                            }
+                                                                                                        ],
+                                                                                                        "op": "<=",
+                                                                                                        "rhs": 0
+                                                                                                    },
+                                                                                                    "edge_label": "false"
+                                                                                                }
+                                                                                            ],
+                                                                                            "split": {
+                                                                                                "lhs": {
+                                                                                                    "coeff": 1,
+                                                                                                    "var": 1
+                                                                                                },
+                                                                                                "op": "<=",
+                                                                                                "rhs": 5.506249904632568
+                                                                                            },
+                                                                                            "edge_label": "true"
+                                                                                        },
+                                                                                        {
+                                                                                            "actual_label": null,
+                                                                                            "children": [
+                                                                                                {
+                                                                                                    "actual_label": [
+                                                                                                        "1.0"
+                                                                                                    ],
+                                                                                                    "children": [],
+                                                                                                    "split": null,
+                                                                                                    "edge_label": "true"
+                                                                                                },
+                                                                                                {
+                                                                                                    "actual_label": [
+                                                                                                        "1.0",
+                                                                                                        "2.0"
+                                                                                                    ],
+                                                                                                    "children": [],
+                                                                                                    "split": null,
+                                                                                                    "edge_label": "false"
+                                                                                                }
+                                                                                            ],
+                                                                                            "split": {
+                                                                                                "lhs": [
+                                                                                                    {
+                                                                                                        "coeff": 420.7975418584882,
+                                                                                                        "var": "x[0]^2"
+                                                                                                    },
+                                                                                                    {
+                                                                                                        "coeff": 360.2516589457509,
+                                                                                                        "var": "x[0]*x[1]"
+                                                                                                    },
+                                                                                                    {
+                                                                                                        "coeff": 524.9476924693471,
+                                                                                                        "var": "x[1]^2"
+                                                                                                    },
+                                                                                                    {
+                                                                                                        "coeff": 1007.5750067160766,
+                                                                                                        "var": "x[0]"
+                                                                                                    },
+                                                                                                    {
+                                                                                                        "coeff": 5793.288817076031,
+                                                                                                        "var": "x[1]"
+                                                                                                    },
+                                                                                                    {
+                                                                                                        "intercept": -51960.46060380753
+                                                                                                    }
+                                                                                                ],
+                                                                                                "op": "<=",
+                                                                                                "rhs": 0
+                                                                                            },
+                                                                                            "edge_label": "false"
+                                                                                        }
+                                                                                    ],
+                                                                                    "split": {
+                                                                                        "lhs": {
+                                                                                            "coeff": 1,
+                                                                                            "var": 0
+                                                                                        },
+                                                                                        "op": "<=",
+                                                                                        "rhs": 1.1972500085830688
+                                                                                    },
+                                                                                    "edge_label": "false"
+                                                                                }
+                                                                            ],
+                                                                            "split": {
+                                                                                "lhs": {
+                                                                                    "coeff": 1,
+                                                                                    "var": 1
+                                                                                },
+                                                                                "op": "<=",
+                                                                                "rhs": 5.502249717712402
+                                                                            },
+                                                                            "edge_label": "true"
+                                                                        },
+                                                                        {
+                                                                            "actual_label": null,
+                                                                            "children": [
+                                                                                {
+                                                                                    "actual_label": [
+                                                                                        "1.0"
+                                                                                    ],
+                                                                                    "children": [],
+                                                                                    "split": null,
+                                                                                    "edge_label": "true"
+                                                                                },
+                                                                                {
+                                                                                    "actual_label": [
+                                                                                        "1.0",
+                                                                                        "2.0"
+                                                                                    ],
+                                                                                    "children": [],
+                                                                                    "split": null,
+                                                                                    "edge_label": "false"
+                                                                                }
+                                                                            ],
+                                                                            "split": {
+                                                                                "lhs": [
+                                                                                    {
+                                                                                        "coeff": 754.7576181428698,
+                                                                                        "var": "x[0]^2"
+                                                                                    },
+                                                                                    {
+                                                                                        "coeff": 258.73409230539966,
+                                                                                        "var": "x[0]*x[1]"
+                                                                                    },
+                                                                                    {
+                                                                                        "coeff": 2979.2756709127643,
+                                                                                        "var": "x[1]^2"
+                                                                                    },
+                                                                                    {
+                                                                                        "coeff": 630.1135443230164,
+                                                                                        "var": "x[0]"
+                                                                                    },
+                                                                                    {
+                                                                                        "coeff": 32915.87635641073,
+                                                                                        "var": "x[1]"
+                                                                                    },
+                                                                                    {
+                                                                                        "intercept": -274692.50094257505
+                                                                                    }
+                                                                                ],
+                                                                                "op": "<=",
+                                                                                "rhs": 0
+                                                                            },
+                                                                            "edge_label": "false"
+                                                                        }
+                                                                    ],
+                                                                    "split": {
+                                                                        "lhs": {
+                                                                            "coeff": 1,
+                                                                            "var": 0
+                                                                        },
+                                                                        "op": "<=",
+                                                                        "rhs": 1.2037500143051147
+                                                                    },
+                                                                    "edge_label": "false"
+                                                                }
+                                                            ],
+                                                            "split": {
+                                                                "lhs": {
+                                                                    "coeff": 1,
+                                                                    "var": 1
+                                                                },
+                                                                "op": "<=",
+                                                                "rhs": 5.498749732971191
+                                                            },
+                                                            "edge_label": "true"
+                                                        },
+                                                        {
+                                                            "actual_label": [
+                                                                "1.0",
+                                                                "2.0"
+                                                            ],
+                                                            "children": [],
+                                                            "split": null,
+                                                            "edge_label": "false"
+                                                        }
+                                                    ],
+                                                    "split": {
+                                                        "lhs": {
+                                                            "coeff": 1,
+                                                            "var": 0
+                                                        },
+                                                        "op": "<=",
+                                                        "rhs": 1.2312500476837158
+                                                    },
+                                                    "edge_label": "true"
+                                                },
+                                                {
+                                                    "actual_label": null,
+                                                    "children": [
+                                                        {
+                                                            "actual_label": null,
+                                                            "children": [
+                                                                {
+                                                                    "actual_label": [
+                                                                        "1.0"
+                                                                    ],
+                                                                    "children": [],
+                                                                    "split": null,
+                                                                    "edge_label": "true"
+                                                                },
+                                                                {
+                                                                    "actual_label": [
+                                                                        "1.0",
+                                                                        "2.0"
+                                                                    ],
+                                                                    "children": [],
+                                                                    "split": null,
+                                                                    "edge_label": "false"
+                                                                }
+                                                            ],
+                                                            "split": {
+                                                                "lhs": [
+                                                                    {
+                                                                        "coeff": 805.4938366498179,
+                                                                        "var": "x[0]^2"
+                                                                    },
+                                                                    {
+                                                                        "coeff": 808.1110445554397,
+                                                                        "var": "x[0]*x[1]"
+                                                                    },
+                                                                    {
+                                                                        "coeff": -93.28826394046888,
+                                                                        "var": "x[1]^2"
+                                                                    },
+                                                                    {
+                                                                        "coeff": 4370.524794815236,
+                                                                        "var": "x[0]"
+                                                                    },
+                                                                    {
+                                                                        "coeff": -687.3267787510493,
+                                                                        "var": "x[1]"
+                                                                    },
+                                                                    {
+                                                                        "intercept": -4746.2717417614
+                                                                    }
+                                                                ],
+                                                                "op": "<=",
+                                                                "rhs": 0
+                                                            },
+                                                            "edge_label": "true"
+                                                        },
+                                                        {
+                                                            "actual_label": null,
+                                                            "children": [
+                                                                {
+                                                                    "actual_label": null,
+                                                                    "children": [
+                                                                        {
+                                                                            "actual_label": [
+                                                                                "1.0"
+                                                                            ],
+                                                                            "children": [],
+                                                                            "split": null,
+                                                                            "edge_label": "true"
+                                                                        },
+                                                                        {
+                                                                            "actual_label": [
+                                                                                "1.0",
+                                                                                "2.0"
+                                                                            ],
+                                                                            "children": [],
+                                                                            "split": null,
+                                                                            "edge_label": "false"
+                                                                        }
+                                                                    ],
+                                                                    "split": {
+                                                                        "lhs": {
+                                                                            "coeff": 1,
+                                                                            "var": 0
+                                                                        },
+                                                                        "op": "<=",
+                                                                        "rhs": 1.1882500648498535
+                                                                    },
+                                                                    "edge_label": "true"
+                                                                },
+                                                                {
+                                                                    "actual_label": null,
+                                                                    "children": [
+                                                                        {
+                                                                            "actual_label": null,
+                                                                            "children": [
+                                                                                {
+                                                                                    "actual_label": [
+                                                                                        "1.0",
+                                                                                        "2.0"
+                                                                                    ],
+                                                                                    "children": [],
+                                                                                    "split": null,
+                                                                                    "edge_label": "true"
+                                                                                },
+                                                                                {
+                                                                                    "actual_label": null,
+                                                                                    "children": [
+                                                                                        {
+                                                                                            "actual_label": null,
+                                                                                            "children": [
+                                                                                                {
+                                                                                                    "actual_label": [
+                                                                                                        "1.0",
+                                                                                                        "2.0"
+                                                                                                    ],
+                                                                                                    "children": [],
+                                                                                                    "split": null,
+                                                                                                    "edge_label": "true"
+                                                                                                },
+                                                                                                {
+                                                                                                    "actual_label": [
+                                                                                                        "2.0"
+                                                                                                    ],
+                                                                                                    "children": [],
+                                                                                                    "split": null,
+                                                                                                    "edge_label": "false"
+                                                                                                }
+                                                                                            ],
+                                                                                            "split": {
+                                                                                                "lhs": {
+                                                                                                    "coeff": 1,
+                                                                                                    "var": 0
+                                                                                                },
+                                                                                                "op": "<=",
+                                                                                                "rhs": 1.3947499990463257
+                                                                                            },
+                                                                                            "edge_label": "true"
+                                                                                        },
+                                                                                        {
+                                                                                            "actual_label": null,
+                                                                                            "children": [
+                                                                                                {
+                                                                                                    "actual_label": [
+                                                                                                        "1.0",
+                                                                                                        "2.0"
+                                                                                                    ],
+                                                                                                    "children": [],
+                                                                                                    "split": null,
+                                                                                                    "edge_label": "true"
+                                                                                                },
+                                                                                                {
+                                                                                                    "actual_label": [
+                                                                                                        "2.0"
+                                                                                                    ],
+                                                                                                    "children": [],
+                                                                                                    "split": null,
+                                                                                                    "edge_label": "false"
+                                                                                                }
+                                                                                            ],
+                                                                                            "split": {
+                                                                                                "lhs": [
+                                                                                                    {
+                                                                                                        "coeff": 1406.3826786012378,
+                                                                                                        "var": "x[0]^2"
+                                                                                                    },
+                                                                                                    {
+                                                                                                        "coeff": 709.5518366337564,
+                                                                                                        "var": "x[0]*x[1]"
+                                                                                                    },
+                                                                                                    {
+                                                                                                        "coeff": 300.324677964764,
+                                                                                                        "var": "x[1]^2"
+                                                                                                    },
+                                                                                                    {
+                                                                                                        "coeff": 3925.5211785029146,
+                                                                                                        "var": "x[0]"
+                                                                                                    },
+                                                                                                    {
+                                                                                                        "coeff": 3496.4395346395822,
+                                                                                                        "var": "x[1]"
+                                                                                                    },
+                                                                                                    {
+                                                                                                        "intercept": -44624.52282872156
+                                                                                                    }
+                                                                                                ],
+                                                                                                "op": "<=",
+                                                                                                "rhs": 0
+                                                                                            },
+                                                                                            "edge_label": "false"
+                                                                                        }
+                                                                                    ],
+                                                                                    "split": {
+                                                                                        "lhs": {
+                                                                                            "coeff": 1,
+                                                                                            "var": 1
+                                                                                        },
+                                                                                        "op": "<=",
+                                                                                        "rhs": 5.839750289916992
+                                                                                    },
+                                                                                    "edge_label": "false"
+                                                                                }
+                                                                            ],
+                                                                            "split": {
+                                                                                "lhs": {
+                                                                                    "coeff": 1,
+                                                                                    "var": 0
+                                                                                },
+                                                                                "op": "<=",
+                                                                                "rhs": 1.3912500143051147
+                                                                            },
+                                                                            "edge_label": "true"
+                                                                        },
+                                                                        {
+                                                                            "actual_label": null,
+                                                                            "children": [
+                                                                                {
+                                                                                    "actual_label": [
+                                                                                        "1.0",
+                                                                                        "2.0"
+                                                                                    ],
+                                                                                    "children": [],
+                                                                                    "split": null,
+                                                                                    "edge_label": "true"
+                                                                                },
+                                                                                {
+                                                                                    "actual_label": [
+                                                                                        "1.0"
+                                                                                    ],
+                                                                                    "children": [],
+                                                                                    "split": null,
+                                                                                    "edge_label": "false"
+                                                                                }
+                                                                            ],
+                                                                            "split": {
+                                                                                "lhs": [
+                                                                                    {
+                                                                                        "coeff": 484.598553332195,
+                                                                                        "var": "x[0]^2"
+                                                                                    },
+                                                                                    {
+                                                                                        "coeff": 229.44196635092598,
+                                                                                        "var": "x[0]*x[1]"
+                                                                                    },
+                                                                                    {
+                                                                                        "coeff": 4772.027388174147,
+                                                                                        "var": "x[1]^2"
+                                                                                    },
+                                                                                    {
+                                                                                        "coeff": 1315.0920019431016,
+                                                                                        "var": "x[0]"
+                                                                                    },
+                                                                                    {
+                                                                                        "coeff": 55763.52673550654,
+                                                                                        "var": "x[1]"
+                                                                                    },
+                                                                                    {
+                                                                                        "intercept": -493301.24180269433
+                                                                                    }
+                                                                                ],
+                                                                                "op": "<=",
+                                                                                "rhs": 0
+                                                                            },
+                                                                            "edge_label": "false"
+                                                                        }
+                                                                    ],
+                                                                    "split": {
+                                                                        "lhs": {
+                                                                            "coeff": 1,
+                                                                            "var": 1
+                                                                        },
+                                                                        "op": "<=",
+                                                                        "rhs": 5.842249870300293
+                                                                    },
+                                                                    "edge_label": "false"
+                                                                }
+                                                            ],
+                                                            "split": {
+                                                                "lhs": {
+                                                                    "coeff": 1,
+                                                                    "var": 0
+                                                                },
+                                                                "op": "<=",
+                                                                "rhs": 1.371749997138977
+                                                            },
+                                                            "edge_label": "false"
+                                                        }
+                                                    ],
+                                                    "split": {
+                                                        "lhs": {
+                                                            "coeff": 1,
+                                                            "var": 1
+                                                        },
+                                                        "op": "<=",
+                                                        "rhs": 5.838250160217285
+                                                    },
+                                                    "edge_label": "false"
+                                                }
+                                            ],
+                                            "split": {
+                                                "lhs": {
+                                                    "coeff": 1,
+                                                    "var": 1
+                                                },
+                                                "op": "<=",
+                                                "rhs": 5.5082502365112305
+                                            },
+                                            "edge_label": "false"
+                                        }
+                                    ],
+                                    "split": {
+                                        "lhs": {
+                                            "coeff": 1,
+                                            "var": 0
+                                        },
+                                        "op": "<=",
+                                        "rhs": 1.187749981880188
+                                    },
+                                    "edge_label": "true"
+                                },
+                                {
+                                    "actual_label": null,
+                                    "children": [
+                                        {
+                                            "actual_label": null,
+                                            "children": [
+                                                {
+                                                    "actual_label": null,
+                                                    "children": [
+                                                        {
+                                                            "actual_label": [
+                                                                "1.0"
+                                                            ],
+                                                            "children": [],
+                                                            "split": null,
+                                                            "edge_label": "true"
+                                                        },
+                                                        {
+                                                            "actual_label": null,
+                                                            "children": [
+                                                                {
+                                                                    "actual_label": [
+                                                                        "1.0"
+                                                                    ],
+                                                                    "children": [],
+                                                                    "split": null,
+                                                                    "edge_label": "true"
+                                                                },
+                                                                {
+                                                                    "actual_label": [
+                                                                        "1.0",
+                                                                        "2.0"
+                                                                    ],
+                                                                    "children": [],
+                                                                    "split": null,
+                                                                    "edge_label": "false"
+                                                                }
+                                                            ],
+                                                            "split": {
+                                                                "lhs": [
+                                                                    {
+                                                                        "coeff": -276.22410180602185,
+                                                                        "var": "x[0]^2"
+                                                                    },
+                                                                    {
+                                                                        "coeff": -170.11413305592083,
+                                                                        "var": "x[0]*x[1]"
+                                                                    },
+                                                                    {
+                                                                        "coeff": -3211.1873612889044,
+                                                                        "var": "x[1]^2"
+                                                                    },
+                                                                    {
+                                                                        "coeff": -977.5799509155316,
+                                                                        "var": "x[0]"
+                                                                    },
+                                                                    {
+                                                                        "coeff": -37634.519638914695,
+                                                                        "var": "x[1]"
+                                                                    },
+                                                                    {
+                                                                        "intercept": 332752.4061873277
+                                                                    }
+                                                                ],
+                                                                "op": "<=",
+                                                                "rhs": 0
+                                                            },
+                                                            "edge_label": "false"
+                                                        }
+                                                    ],
+                                                    "split": {
+                                                        "lhs": {
+                                                            "coeff": 1,
+                                                            "var": 0
+                                                        },
+                                                        "op": "<=",
+                                                        "rhs": 1.1882500648498535
+                                                    },
+                                                    "edge_label": "true"
+                                                },
+                                                {
+                                                    "actual_label": null,
+                                                    "children": [
+                                                        {
+                                                            "actual_label": null,
+                                                            "children": [
+                                                                {
+                                                                    "actual_label": null,
+                                                                    "children": [
+                                                                        {
+                                                                            "actual_label": null,
+                                                                            "children": [
+                                                                                {
+                                                                                    "actual_label": [
+                                                                                        "1.0",
+                                                                                        "2.0"
+                                                                                    ],
+                                                                                    "children": [],
+                                                                                    "split": null,
+                                                                                    "edge_label": "true"
+                                                                                },
+                                                                                {
+                                                                                    "actual_label": [
+                                                                                        "1.0"
+                                                                                    ],
+                                                                                    "children": [],
+                                                                                    "split": null,
+                                                                                    "edge_label": "false"
+                                                                                }
+                                                                            ],
+                                                                            "split": {
+                                                                                "lhs": [
+                                                                                    {
+                                                                                        "coeff": -571.5983126430167,
+                                                                                        "var": "x[0]^2"
+                                                                                    },
+                                                                                    {
+                                                                                        "coeff": -221.5777279096534,
+                                                                                        "var": "x[0]*x[1]"
+                                                                                    },
+                                                                                    {
+                                                                                        "coeff": 182.3352159423035,
+                                                                                        "var": "x[1]^2"
+                                                                                    },
+                                                                                    {
+                                                                                        "coeff": -1345.286324293202,
+                                                                                        "var": "x[0]"
+                                                                                    },
+                                                                                    {
+                                                                                        "coeff": 2133.173517807421,
+                                                                                        "var": "x[1]"
+                                                                                    },
+                                                                                    {
+                                                                                        "intercept": -14761.181622218795
+                                                                                    }
+                                                                                ],
+                                                                                "op": "<=",
+                                                                                "rhs": 0
+                                                                            },
+                                                                            "edge_label": "true"
+                                                                        },
+                                                                        {
+                                                                            "actual_label": null,
+                                                                            "children": [
+                                                                                {
+                                                                                    "actual_label": [
+                                                                                        "1.0"
+                                                                                    ],
+                                                                                    "children": [],
+                                                                                    "split": null,
+                                                                                    "edge_label": "true"
+                                                                                },
+                                                                                {
+                                                                                    "actual_label": [
+                                                                                        "1.0",
+                                                                                        "2.0"
+                                                                                    ],
+                                                                                    "children": [],
+                                                                                    "split": null,
+                                                                                    "edge_label": "false"
+                                                                                }
+                                                                            ],
+                                                                            "split": {
+                                                                                "lhs": [
+                                                                                    {
+                                                                                        "coeff": -558.3360272318102,
+                                                                                        "var": "x[0]^2"
+                                                                                    },
+                                                                                    {
+                                                                                        "coeff": -223.84295669783938,
+                                                                                        "var": "x[0]*x[1]"
+                                                                                    },
+                                                                                    {
+                                                                                        "coeff": -4765.5559749826625,
+                                                                                        "var": "x[1]^2"
+                                                                                    },
+                                                                                    {
+                                                                                        "coeff": -1300.415522652242,
+                                                                                        "var": "x[0]"
+                                                                                    },
+                                                                                    {
+                                                                                        "coeff": -55721.28823356492,
+                                                                                        "var": "x[1]"
+                                                                                    },
+                                                                                    {
+                                                                                        "intercept": 492895.1521060406
+                                                                                    }
+                                                                                ],
+                                                                                "op": "<=",
+                                                                                "rhs": 0
+                                                                            },
+                                                                            "edge_label": "false"
+                                                                        }
+                                                                    ],
+                                                                    "split": {
+                                                                        "lhs": {
+                                                                            "coeff": 1,
+                                                                            "var": 0
+                                                                        },
+                                                                        "op": "<=",
+                                                                        "rhs": 1.1887500286102295
+                                                                    },
+                                                                    "edge_label": "true"
+                                                                },
+                                                                {
+                                                                    "actual_label": null,
+                                                                    "children": [
+                                                                        {
+                                                                            "actual_label": null,
+                                                                            "children": [
+                                                                                {
+                                                                                    "actual_label": null,
+                                                                                    "children": [
+                                                                                        {
+                                                                                            "actual_label": [
+                                                                                                "1.0"
+                                                                                            ],
+                                                                                            "children": [],
+                                                                                            "split": null,
+                                                                                            "edge_label": "true"
+                                                                                        },
+                                                                                        {
+                                                                                            "actual_label": null,
+                                                                                            "children": [
+                                                                                                {
+                                                                                                    "actual_label": [
+                                                                                                        "1.0"
+                                                                                                    ],
+                                                                                                    "children": [],
+                                                                                                    "split": null,
+                                                                                                    "edge_label": "true"
+                                                                                                },
+                                                                                                {
+                                                                                                    "actual_label": [
+                                                                                                        "1.0",
+                                                                                                        "2.0"
+                                                                                                    ],
+                                                                                                    "children": [],
+                                                                                                    "split": null,
+                                                                                                    "edge_label": "false"
+                                                                                                }
+                                                                                            ],
+                                                                                            "split": {
+                                                                                                "lhs": [
+                                                                                                    {
+                                                                                                        "coeff": -548.8728627670321,
+                                                                                                        "var": "x[0]^2"
+                                                                                                    },
+                                                                                                    {
+                                                                                                        "coeff": -229.94694655348684,
+                                                                                                        "var": "x[0]*x[1]"
+                                                                                                    },
+                                                                                                    {
+                                                                                                        "coeff": -4780.920212721486,
+                                                                                                        "var": "x[1]^2"
+                                                                                                    },
+                                                                                                    {
+                                                                                                        "coeff": -1333.5131495805667,
+                                                                                                        "var": "x[0]"
+                                                                                                    },
+                                                                                                    {
+                                                                                                        "coeff": -55924.81300285517,
+                                                                                                        "var": "x[1]"
+                                                                                                    },
+                                                                                                    {
+                                                                                                        "intercept": 494678.8754268654
+                                                                                                    }
+                                                                                                ],
+                                                                                                "op": "<=",
+                                                                                                "rhs": 0
+                                                                                            },
+                                                                                            "edge_label": "false"
+                                                                                        }
+                                                                                    ],
+                                                                                    "split": {
+                                                                                        "lhs": {
+                                                                                            "coeff": 1,
+                                                                                            "var": 0
+                                                                                        },
+                                                                                        "op": "<=",
+                                                                                        "rhs": 1.1887500286102295
+                                                                                    },
+                                                                                    "edge_label": "true"
+                                                                                },
+                                                                                {
+                                                                                    "actual_label": [
+                                                                                        "1.0"
+                                                                                    ],
+                                                                                    "children": [],
+                                                                                    "split": null,
+                                                                                    "edge_label": "false"
+                                                                                }
+                                                                            ],
+                                                                            "split": {
+                                                                                "lhs": {
+                                                                                    "coeff": 1,
+                                                                                    "var": 1
+                                                                                },
+                                                                                "op": "<=",
+                                                                                "rhs": 5.849249839782715
+                                                                            },
+                                                                            "edge_label": "true"
+                                                                        },
+                                                                        {
+                                                                            "actual_label": [
+                                                                                "1.0"
+                                                                            ],
+                                                                            "children": [],
+                                                                            "split": null,
+                                                                            "edge_label": "false"
+                                                                        }
+                                                                    ],
+                                                                    "split": {
+                                                                        "lhs": {
+                                                                            "coeff": 1,
+                                                                            "var": 0
+                                                                        },
+                                                                        "op": "<=",
+                                                                        "rhs": 1.2167500257492065
+                                                                    },
+                                                                    "edge_label": "false"
+                                                                }
+                                                            ],
+                                                            "split": {
+                                                                "lhs": {
+                                                                    "coeff": 1,
+                                                                    "var": 1
+                                                                },
+                                                                "op": "<=",
+                                                                "rhs": 5.848249912261963
+                                                            },
+                                                            "edge_label": "true"
+                                                        },
+                                                        {
+                                                            "actual_label": null,
+                                                            "children": [
+                                                                {
+                                                                    "actual_label": [
+                                                                        "1.0",
+                                                                        "2.0"
+                                                                    ],
+                                                                    "children": [],
+                                                                    "split": null,
+                                                                    "edge_label": "true"
+                                                                },
+                                                                {
+                                                                    "actual_label": [
+                                                                        "1.0"
+                                                                    ],
+                                                                    "children": [],
+                                                                    "split": null,
+                                                                    "edge_label": "false"
+                                                                }
+                                                            ],
+                                                            "split": {
+                                                                "lhs": [
+                                                                    {
+                                                                        "coeff": 518.2399691882104,
+                                                                        "var": "x[0]^2"
+                                                                    },
+                                                                    {
+                                                                        "coeff": 229.05300857480265,
+                                                                        "var": "x[0]*x[1]"
+                                                                    },
+                                                                    {
+                                                                        "coeff": 4716.438470448799,
+                                                                        "var": "x[1]^2"
+                                                                    },
+                                                                    {
+                                                                        "coeff": 1311.5505071866996,
+                                                                        "var": "x[0]"
+                                                                    },
+                                                                    {
+                                                                        "coeff": 55212.89234983371,
+                                                                        "var": "x[1]"
+                                                                    },
+                                                                    {
+                                                                        "intercept": -488232.433991132
+                                                                    }
+                                                                ],
+                                                                "op": "<=",
+                                                                "rhs": 0
+                                                            },
+                                                            "edge_label": "false"
+                                                        }
+                                                    ],
+                                                    "split": {
+                                                        "lhs": {
+                                                            "coeff": 1,
+                                                            "var": 0
+                                                        },
+                                                        "op": "<=",
+                                                        "rhs": 1.2452499866485596
+                                                    },
+                                                    "edge_label": "false"
+                                                }
+                                            ],
+                                            "split": {
+                                                "lhs": {
+                                                    "coeff": 1,
+                                                    "var": 1
+                                                },
+                                                "op": "<=",
+                                                "rhs": 5.846750259399414
+                                            },
+                                            "edge_label": "true"
+                                        },
+                                        {
+                                            "actual_label": null,
+                                            "children": [
+                                                {
+                                                    "actual_label": [
+                                                        "1.0",
+                                                        "2.0"
+                                                    ],
+                                                    "children": [],
+                                                    "split": null,
+                                                    "edge_label": "true"
+                                                },
+                                                {
+                                                    "actual_label": [
+                                                        "1.0"
+                                                    ],
+                                                    "children": [],
+                                                    "split": null,
+                                                    "edge_label": "false"
+                                                }
+                                            ],
+                                            "split": {
+                                                "lhs": [
+                                                    {
+                                                        "coeff": 864.9845749413635,
+                                                        "var": "x[0]^2"
+                                                    },
+                                                    {
+                                                        "coeff": 44.31936161021755,
+                                                        "var": "x[0]*x[1]"
+                                                    },
+                                                    {
+                                                        "coeff": 3402.6707238796557,
+                                                        "var": "x[1]^2"
+                                                    },
+                                                    {
+                                                        "coeff": 239.74824283562805,
+                                                        "var": "x[0]"
+                                                    },
+                                                    {
+                                                        "coeff": 39736.22633471046,
+                                                        "var": "x[1]"
+                                                    },
+                                                    {
+                                                        "intercept": -350659.74822518125
+                                                    }
+                                                ],
+                                                "op": "<=",
+                                                "rhs": 0
+                                            },
+                                            "edge_label": "false"
+                                        }
+                                    ],
+                                    "split": {
+                                        "lhs": {
+                                            "coeff": 1,
+                                            "var": 0
+                                        },
+                                        "op": "<=",
+                                        "rhs": 1.3012499809265137
+                                    },
+                                    "edge_label": "false"
+                                }
+                            ],
+                            "split": {
+                                "lhs": {
+                                    "coeff": 1,
+                                    "var": 1
+                                },
+                                "op": "<=",
+                                "rhs": 5.843250274658203
+                            },
+                            "edge_label": "false"
+                        }
+                    ],
+                    "split": {
+                        "lhs": {
+                            "coeff": 1,
+                            "var": 1
+                        },
+                        "op": "<=",
+                        "rhs": 5.489250183105469
+                    },
+                    "edge_label": "false"
+                }
+            ],
+            "split": {
+                "lhs": {
+                    "coeff": 1,
+                    "var": 0
+                },
+                "op": "<=",
+                "rhs": 1.184249997138977
+            },
+            "edge_label": "true"
+        },
+        {
+            "actual_label": [
+                "2.0"
+            ],
+            "children": [],
+            "split": null,
+            "edge_label": "false"
+        }
+    ],
+    "split": {
+        "lhs": {
+            "coeff": 1,
+            "var": 0
+        },
+        "op": "<=",
+        "rhs": 1.3952499628067017
+    }
+}

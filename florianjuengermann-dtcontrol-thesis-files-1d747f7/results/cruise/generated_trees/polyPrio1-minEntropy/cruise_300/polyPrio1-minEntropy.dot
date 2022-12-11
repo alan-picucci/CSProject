@@ -1,0 +1,40 @@
+digraph {
+0 [label="-1e-06*d*vE\n+0.499986*vE²\n-7e-06*vE*vF\n-0.499978*vF²\n-1.99992*d\n+11.999519*vE\n-9.999601*vF\n+31.00059 <= 0"];
+1 [label="vE <= -9.0"];
+2 [label="-0.000637*d²\n-0.022498*d*vE\n-0.008222*d*vF\n+0.012815*vE*vF\n-0.040588*vF²\n+0.224976*d\n-0.128153*vF\n-2.436967 <= 0"];
+3 [label="0"];
+2 -> 3 [label="True"];
+4 [label="d <= 6.5"];
+5 [label="0"];
+4 -> 5 [label="True"];
+6 [label="[0, 2]"];
+4 -> 6 [style="dashed", label="False"];
+2 -> 4 [style="dashed", label="False"];
+1 -> 2 [label="True"];
+7 [label="-0.000131*d²\n-0.00076*d*vE\n-0.011567*vE²\n-0.004488*d*vF\n+0.03206*vE*vF\n-0.007363*vF²\n+0.143336*d\n-0.899219*vE\n+0.712289*vF\n-3.601851 <= 0"];
+8 [label="vE <= 19.0"];
+9 [label="-9e-06*d²\n+0.000219*d*vE\n+0.500072*vE²\n-0.000118*d*vF\n+0.001371*vE*vF\n-0.501683*vF²\n-2.005454*d\n+14.037778*vE\n-10.027157*vF\n+55.150633 <= 0"];
+10 [label="[0, -2, 2]"];
+9 -> 10 [label="True"];
+11 [label="[0, -2]"];
+9 -> 11 [style="dashed", label="False"];
+8 -> 9 [label="True"];
+12 [label="[0, -2]"];
+8 -> 12 [style="dashed", label="False"];
+7 -> 8 [label="True"];
+13 [label="vE <= 19.0"];
+14 [label="-0.000586*d²\n+0.011466*d*vE\n-0.593425*vE²\n-0.008071*d*vF\n+0.080504*vE*vF\n+0.509523*vF²\n+2.176942*d\n-15.3055*vE\n+10.917311*vF\n-59.424138 <= 0"];
+15 [label="[0, -2]"];
+14 -> 15 [label="True"];
+16 [label="[0, -2, 2]"];
+14 -> 16 [style="dashed", label="False"];
+13 -> 14 [label="True"];
+17 [label="[0, -2]"];
+13 -> 17 [style="dashed", label="False"];
+7 -> 13 [style="dashed", label="False"];
+1 -> 7 [style="dashed", label="False"];
+0 -> 1 [label="True"];
+18 [label="-2"];
+0 -> 18 [style="dashed", label="False"];
+
+}
