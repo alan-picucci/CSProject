@@ -1,6 +1,4 @@
 *.dump
 *.saved
 *.scs
-*.npy
 
-**/.benchmark_suite
