@@ -1,0 +1,28 @@
+digraph {
+0 [label="23.6(\n-0.0406*d\n+0.166*vE\n-0.119*vF\n+0.978)^2\n-1.14(\n-0.162*d\n+0.457*vE\n-0.854*vF\n-0.189)^2\n+0.133(\n+0.52*d\n+0.782*vE\n+0.335*vF\n-0.0702)^2\n-0.064(\n-0.838*d\n+0.389*vE\n+0.379*vF\n-0.0545)^2 <= 0"];
+1 [label="vE <= -5.0"];
+2 [label="d <= 7.5"];
+3 [label="8.28(\n+0.0427*d\n+0.000346*vE\n+0.0155*vF\n-0.999)^2\n-0.11(\n+0.841*d\n-0.494*vE\n+0.216*vF\n+0.0391)^2\n+0.0399(\n+0.279*d\n+0.742*vE\n+0.609*vF\n+0.0216)^2\n+0.0243(\n-0.461*d\n-0.452*vE\n+0.763*vF\n-0.00801)^2 <= 0"];
+4 [label="[0, 2]"];
+3 -> 4 [label="True"];
+5 [label="0"];
+3 -> 5 [style="dashed", label="False"];
+2 -> 3 [label="True"];
+6 [label="[0, 2]"];
+2 -> 6 [style="dashed", label="False"];
+1 -> 2 [label="True"];
+7 [label="vE <= 19.0"];
+8 [label="-40.6(\n-0.0249*d\n+0.127*vE\n-0.0739*vF\n+0.989)^2\n+0.912(\n-0.134*d\n+0.419*vE\n-0.89*vF\n-0.124)^2\n-0.116(\n+0.547*d\n+0.781*vE\n+0.294*vF\n-0.0643)^2\n+0.063(\n+0.826*d\n-0.445*vE\n-0.341*vF\n+0.0523)^2 <= 0"];
+9 [label="[0, -2]"];
+8 -> 9 [label="True"];
+10 [label="[0, -2, 2]"];
+8 -> 10 [style="dashed", label="False"];
+7 -> 8 [label="True"];
+11 [label="[0, -2]"];
+7 -> 11 [style="dashed", label="False"];
+1 -> 7 [style="dashed", label="False"];
+0 -> 1 [label="True"];
+12 [label="-2"];
+0 -> 12 [style="dashed", label="False"];
+
+}

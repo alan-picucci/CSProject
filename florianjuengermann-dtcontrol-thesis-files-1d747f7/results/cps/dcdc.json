@@ -160,6 +160,214 @@
           "k=4": 0
         },
         "time": "00:04:23.531"
+      },
+      "poly-lowrank_default": {
+        "stats": {
+          "nodes": 151,
+          "inner nodes": 75,
+          "paths": 76,
+          "bandwidth": 7,
+          "k=1": 0,
+          "k=2": 1,
+          "k=3": 26,
+          "k=4": 0
+        },
+        "time": "00:03:08.175"
+      },
+      "poly-lowrank_default_rounding": {
+        "stats": {
+          "nodes": 229,
+          "inner nodes": 114,
+          "paths": 115,
+          "bandwidth": 7,
+          "k=1": 0,
+          "k=2": 1,
+          "k=3": 10,
+          "k=4": 0
+        },
+        "time": "00:02:12.384"
+      },
+      "poly-lowrank_permissive": {
+        "stats": {
+          "nodes": 151,
+          "inner nodes": 75,
+          "paths": 76,
+          "bandwidth": 7,
+          "k=1": 0,
+          "k=2": 1,
+          "k=3": 26,
+          "k=4": 0
+        },
+        "time": "00:02:07.153"
+      },
+      "poly-lowrank_permissive_round": {
+        "stats": {
+          "nodes": 229,
+          "inner nodes": 114,
+          "paths": 115,
+          "bandwidth": 7,
+          "k=1": 0,
+          "k=2": 1,
+          "k=3": 10,
+          "k=4": 0
+        },
+        "time": "00:02:14.616"
+      },
+      "polyPrio1-lowrank_default": {
+        "stats": {
+          "nodes": 173,
+          "inner nodes": 86,
+          "paths": 87,
+          "bandwidth": 7,
+          "k=1": 0,
+          "k=2": 5,
+          "k=3": 33,
+          "k=4": 0
+        },
+        "time": "00:02:26.912"
+      },
+      "polyPrio1-lowrank_default_rounding": {
+        "stats": {
+          "nodes": 265,
+          "inner nodes": 132,
+          "paths": 133,
+          "bandwidth": 8,
+          "k=1": 0,
+          "k=2": 5,
+          "k=3": 18,
+          "k=4": 0
+        },
+        "time": "00:02:16.511"
+      },
+      "polyPrio1-lowrank_permissive": {
+        "stats": {
+          "nodes": 173,
+          "inner nodes": 86,
+          "paths": 87,
+          "bandwidth": 7,
+          "k=1": 0,
+          "k=2": 5,
+          "k=3": 33,
+          "k=4": 0
+        },
+        "time": "00:02:31.985"
+      },
+      "polyPrio1-lowrank_permissive_round": {
+        "stats": {
+          "nodes": 265,
+          "inner nodes": 132,
+          "paths": 133,
+          "bandwidth": 8,
+          "k=1": 0,
+          "k=2": 5,
+          "k=3": 18,
+          "k=4": 0
+        },
+        "time": "00:02:13.633"
+      },
+      "poly-lowrank_default-minEntropy": {
+        "stats": {
+          "nodes": 145,
+          "inner nodes": 72,
+          "paths": 73,
+          "bandwidth": 7,
+          "k=1": 0,
+          "k=2": 1,
+          "k=3": 22,
+          "k=4": 0
+        },
+        "time": "00:03:14.737"
+      },
+      "poly-lowrank_default_rounding-minEntropy": {
+        "stats": {
+          "nodes": 207,
+          "inner nodes": 103,
+          "paths": 104,
+          "bandwidth": 7,
+          "k=1": 0,
+          "k=2": 1,
+          "k=3": 12,
+          "k=4": 0
+        },
+        "time": "00:03:05.456"
+      },
+      "poly-lowrank_permissive-minEntropy": {
+        "stats": {
+          "nodes": 145,
+          "inner nodes": 72,
+          "paths": 73,
+          "bandwidth": 7,
+          "k=1": 0,
+          "k=2": 1,
+          "k=3": 22,
+          "k=4": 0
+        },
+        "time": "00:03:05.091"
+      },
+      "poly-lowrank_permissive_round-minEntropy": {
+        "stats": {
+          "nodes": 207,
+          "inner nodes": 103,
+          "paths": 104,
+          "bandwidth": 7,
+          "k=1": 0,
+          "k=2": 1,
+          "k=3": 12,
+          "k=4": 0
+        },
+        "time": "00:03:01.988"
+      },
+      "polyPrio1-lowrank_default-minEntropy": {
+        "stats": {
+          "nodes": 185,
+          "inner nodes": 92,
+          "paths": 93,
+          "bandwidth": 7,
+          "k=1": 0,
+          "k=2": 5,
+          "k=3": 26,
+          "k=4": 0
+        },
+        "time": "00:04:10.903"
+      },
+      "polyPrio1-lowrank_default_rounding-minEntropy": {
+        "stats": {
+          "nodes": 229,
+          "inner nodes": 114,
+          "paths": 115,
+          "bandwidth": 7,
+          "k=1": 0,
+          "k=2": 5,
+          "k=3": 19,
+          "k=4": 0
+        },
+        "time": "00:03:16.615"
+      },
+      "polyPrio1-lowrank_permissive-minEntropy": {
+        "stats": {
+          "nodes": 153,
+          "inner nodes": 76,
+          "paths": 77,
+          "bandwidth": 7,
+          "k=1": 0,
+          "k=2": 7,
+          "k=3": 26,
+          "k=4": 0
+        },
+        "time": "00:02:51.257"
+      },
+      "polyPrio1-lowrank_permissive_round-minEntropy": {
+        "stats": {
+          "nodes": 229,
+          "inner nodes": 114,
+          "paths": 115,
+          "bandwidth": 7,
+          "k=1": 0,
+          "k=2": 5,
+          "k=3": 19,
+          "k=4": 0
+        },
+        "time": "00:03:08.184"
       }
     },
     "metadata": {

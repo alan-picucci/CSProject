@@ -47,34 +47,58 @@ def runBenchmark(dataset):
 
     poly = PolynomialClassifierSplittingStrategy(prettify=False)
     poly.priority = 0.1
-    poly_lowrank= LowRankPolynomialClassifierSplittingStrategy(prettify=False) #(Alan+Giacomo): Here we have added our new splitting strategy 
-    poly_lowrank.priority=0.1 #(Alan+Giacomo): Here we can choose the "priority" variable for our splitting strategy. This variable is used when we compare the impurity measure of the polynomial split with the axis aligned split, since we compare: polynomialsplit_impurity/priority with axisaligned_impurity. Therefore, with a priority of 1, the impurities are compared directly.
-    poly_lowrankPrio1= LowRankPolynomialClassifierSplittingStrategy(prettify=False) #(Alan+Giacomo): Here we have added our new splitting strategy 
-    poly_lowrankPrio1.priority=1
     polyPrio1 = PolynomialClassifierSplittingStrategy(prettify=False)
     polyPrio1.priority = 1.0
+    poly_lowrank_default= LowRankPolynomialClassifierSplittingStrategy(prettify=False, m=0.1, z=0.1, round_eigvals=False) #(Alan+Giacomo): Here we have added our new splitting strategy 
+    poly_lowrank_default.priority=0.1 #(Alan+Giacomo): Here we can choose the "priority" variable for our splitting strategy. This variable is used when we compare the impurity measure of the polynomial split with the axis aligned split, since we compare: polynomialsplit_impurity/priority with axisaligned_impurity. Therefore, with a priority of 1, the impurities are compared directly.
+    poly_lowrank_default_rounding= LowRankPolynomialClassifierSplittingStrategy(prettify=False, m=0.1, z=0.1, round_eigvals=True, eps=0.01) #(Alan+Giacomo): Here we have added our new splitting strategy 
+    poly_lowrank_default_rounding.priority=0.1
+    poly_lowrank_permissive= LowRankPolynomialClassifierSplittingStrategy(prettify=False, m=0.5, z=0.2, round_eigvals=False, eps=0.01) #(Alan+Giacomo): Here we have added our new splitting strategy 
+    poly_lowrank_permissive.priority=0.1
+    poly_lowrank_permissive_round= LowRankPolynomialClassifierSplittingStrategy(prettify=False, m=0.5, z=0.2, round_eigvals=True, eps=0.01) #(Alan+Giacomo): Here we have added our new splitting strategy 
+    poly_lowrank_permissive_round.priority=0.1
+    polyPrio1_lowrank_default= LowRankPolynomialClassifierSplittingStrategy(prettify=False, m=0.1, z=0.1, round_eigvals=False) #(Alan+Giacomo): Here we have added our new splitting strategy 
+    polyPrio1_lowrank_default.priority=1 #(Alan+Giacomo): Here we can choose the "priority" variable for our splitting strategy. This variable is used when we compare the impurity measure of the polynomial split with the axis aligned split, since we compare: polynomialsplit_impurity/priority with axisaligned_impurity. Therefore, with a priority of 1, the impurities are compared directly.
+    polyPrio1_lowrank_default_rounding= LowRankPolynomialClassifierSplittingStrategy(prettify=False, m=0.1, z=0.1, round_eigvals=True, eps=0.01) #(Alan+Giacomo): Here we have added our new splitting strategy 
+    polyPrio1_lowrank_default_rounding.priority=1
+    polyPrio1_lowrank_permissive= LowRankPolynomialClassifierSplittingStrategy(prettify=False, m=0.5, z=0.2, round_eigvals=False, eps=0.01) #(Alan+Giacomo): Here we have added our new splitting strategy 
+    polyPrio1_lowrank_permissive.priority=1
+    polyPrio1_lowrank_permissive_round= LowRankPolynomialClassifierSplittingStrategy(prettify=False, m=0.1, z=0.1, round_eigvals=True, eps=0.01) #(Alan+Giacomo): Here we have added our new splitting strategy 
+    polyPrio1_lowrank_permissive_round.priority=1
 
     entropy = Entropy(determinizer=LabelPowersetDeterminizer())
     minEntropy = MinLabelEntropy(determinizer=LabelPowersetDeterminizer())
 
     classifiers = [
-        DecisionTree([aa],              entropy,    'axis-aligned'),
-        DecisionTree([aa, lin_logreg],  entropy,    'lin-logreg'),
-        DecisionTree([aa, lin_svm],     entropy,    'lin-svm'),
-        DecisionTree([aa, lin_oc1],     entropy,    'lin-oc1'),
-        DecisionTree([aa, poly],        entropy,    'poly'),
-        DecisionTree([aa, polyPrio1],   entropy,    'polyPrio1'),
-        DecisionTree([aa, poly_lowrank], entropy, 'poly-lowrank'),
-        DecisionTree([aa, poly_lowrankPrio1], entropy, 'poly-lowrankPrio1'),
+        #DecisionTree([aa],              entropy,    'axis-aligned'),
+        #DecisionTree([aa, lin_logreg],  entropy,    'lin-logreg'),
+        #DecisionTree([aa, lin_svm],     entropy,    'lin-svm'),
+        #DecisionTree([aa, lin_oc1],     entropy,    'lin-oc1'),
+        #DecisionTree([aa, poly],        entropy,    'poly'),
+        #DecisionTree([aa, polyPrio1],   entropy,    'polyPrio1'),
+        DecisionTree([aa, poly_lowrank_default], entropy, 'poly-lowrank_default'),
+        DecisionTree([aa, poly_lowrank_default_rounding], entropy, 'poly-lowrank_default_rounding'),
+        DecisionTree([aa, poly_lowrank_permissive], entropy, 'poly-lowrank_permissive'),
+        DecisionTree([aa, poly_lowrank_permissive_round], entropy, 'poly-lowrank_permissive_round'),
+        DecisionTree([aa, polyPrio1_lowrank_default], entropy, 'polyPrio1-lowrank_default'),
+        DecisionTree([aa, polyPrio1_lowrank_default_rounding], entropy, 'polyPrio1-lowrank_default_rounding'),
+        DecisionTree([aa, polyPrio1_lowrank_permissive], entropy, 'polyPrio1-lowrank_permissive'),
+        DecisionTree([aa, polyPrio1_lowrank_permissive_round], entropy, 'polyPrio1-lowrank_permissive_round'),
 
-        DecisionTree([aa],              minEntropy, 'axis-aligned-minEntropy'),
-        DecisionTree([aa, lin_logreg],  minEntropy, 'lin-logreg-minEntropy'),
-        DecisionTree([aa, lin_svm],     minEntropy, 'lin-svm-minEntropy'),
-        DecisionTree([aa, lin_oc1],     minEntropy, 'lin-oc1-minEntropy'),
-        DecisionTree([aa, poly],        minEntropy, 'poly-minEntropy'),
-        DecisionTree([aa, polyPrio1],   minEntropy, 'polyPrio1-minEntropy'),
-        DecisionTree([aa, poly_lowrank],minEntropy, 'poly-lowrank-minEntropy'),
-        DecisionTree([aa, poly_lowrankPrio1],minEntropy, 'poly-lowrankPrio1-minEntropy'),
+        #DecisionTree([aa],              minEntropy, 'axis-aligned-minEntropy'),
+        #DecisionTree([aa, lin_logreg],  minEntropy, 'lin-logreg-minEntropy'),
+        #DecisionTree([aa, lin_svm],     minEntropy, 'lin-svm-minEntropy'),
+        #DecisionTree([aa, lin_oc1],     minEntropy, 'lin-oc1-minEntropy'),
+        #DecisionTree([aa, poly],        minEntropy, 'poly-minEntropy'),
+        #DecisionTree([aa, polyPrio1],   minEntropy, 'polyPrio1-minEntropy'),
+        DecisionTree([aa, poly_lowrank_default], minEntropy, 'poly-lowrank_default-minEntropy'),
+        DecisionTree([aa, poly_lowrank_default_rounding], minEntropy, 'poly-lowrank_default_rounding-minEntropy'),
+        DecisionTree([aa, poly_lowrank_permissive], minEntropy, 'poly-lowrank_permissive-minEntropy'),
+        DecisionTree([aa, poly_lowrank_permissive_round], minEntropy, 'poly-lowrank_permissive_round-minEntropy'),
+        DecisionTree([aa, polyPrio1_lowrank_default], minEntropy, 'polyPrio1-lowrank_default-minEntropy'),
+        DecisionTree([aa, polyPrio1_lowrank_default_rounding], minEntropy, 'polyPrio1-lowrank_default_rounding-minEntropy'),
+        DecisionTree([aa, polyPrio1_lowrank_permissive], minEntropy, 'polyPrio1-lowrank_permissive-minEntropy'),
+        DecisionTree([aa, polyPrio1_lowrank_permissive_round], minEntropy, 'polyPrio1-lowrank_permissive_round-minEntropy'),
     ]
     suite.benchmark(classifiers)
     suite.display_html()

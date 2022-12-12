@@ -1,0 +1,256 @@
+{
+    "actual_label": null,
+    "children": [
+        {
+            "actual_label": null,
+            "children": [
+                {
+                    "actual_label": null,
+                    "children": [
+                        {
+                            "actual_label": null,
+                            "children": [
+                                {
+                                    "actual_label": [
+                                        "0",
+                                        "2"
+                                    ],
+                                    "children": [],
+                                    "split": null,
+                                    "edge_label": "true"
+                                },
+                                {
+                                    "actual_label": [
+                                        "0"
+                                    ],
+                                    "children": [],
+                                    "split": null,
+                                    "edge_label": "false"
+                                }
+                            ],
+                            "split": {
+                                "lhs": [
+                                    {
+                                        "coeff": -0.05479107256307637,
+                                        "var": "d^2"
+                                    },
+                                    {
+                                        "coeff": 0.11846927088802764,
+                                        "var": "d*vE"
+                                    },
+                                    {
+                                        "coeff": -9.931747845559118e-07,
+                                        "var": "vE^2"
+                                    },
+                                    {
+                                        "coeff": -0.0327835141736395,
+                                        "var": "d*vF"
+                                    },
+                                    {
+                                        "coeff": 0.042876228856845444,
+                                        "var": "vE*vF"
+                                    },
+                                    {
+                                        "coeff": 0.025779144680674944,
+                                        "var": "vF^2"
+                                    },
+                                    {
+                                        "coeff": -0.7124637395890719,
+                                        "var": "d"
+                                    },
+                                    {
+                                        "coeff": 0.005551622435722896,
+                                        "var": "vE"
+                                    },
+                                    {
+                                        "coeff": -0.25749410343295576,
+                                        "var": "vF"
+                                    },
+                                    {
+                                        "intercept": 8.258281957317378
+                                    }
+                                ],
+                                "op": "<=",
+                                "rhs": 0
+                            },
+                            "edge_label": "true"
+                        },
+                        {
+                            "actual_label": [
+                                "0",
+                                "2"
+                            ],
+                            "children": [],
+                            "split": null,
+                            "edge_label": "false"
+                        }
+                    ],
+                    "split": {
+                        "lhs": {
+                            "coeff": 1,
+                            "var": "d"
+                        },
+                        "op": "<=",
+                        "rhs": 7.5
+                    },
+                    "edge_label": "true"
+                },
+                {
+                    "actual_label": null,
+                    "children": [
+                        {
+                            "actual_label": null,
+                            "children": [
+                                {
+                                    "actual_label": [
+                                        "0",
+                                        "-2"
+                                    ],
+                                    "children": [],
+                                    "split": null,
+                                    "edge_label": "true"
+                                },
+                                {
+                                    "actual_label": [
+                                        "0",
+                                        "-2",
+                                        "2"
+                                    ],
+                                    "children": [],
+                                    "split": null,
+                                    "edge_label": "false"
+                                }
+                            ],
+                            "split": {
+                                "lhs": [
+                                    {
+                                        "coeff": -0.0004625061892244077,
+                                        "var": "d^2"
+                                    },
+                                    {
+                                        "coeff": 0.008656387308782579,
+                                        "var": "d*vE"
+                                    },
+                                    {
+                                        "coeff": -0.5492553467401229,
+                                        "var": "vE^2"
+                                    },
+                                    {
+                                        "coeff": -0.005077966417477386,
+                                        "var": "d*vF"
+                                    },
+                                    {
+                                        "coeff": 0.04691647439699314,
+                                        "var": "vE*vF"
+                                    },
+                                    {
+                                        "coeff": 0.4968881213949804,
+                                        "var": "vF^2"
+                                    },
+                                    {
+                                        "coeff": 2.0435188017907038,
+                                        "var": "d"
+                                    },
+                                    {
+                                        "coeff": -10.252860445859557,
+                                        "var": "vE"
+                                    },
+                                    {
+                                        "coeff": 6.138131798423148,
+                                        "var": "vF"
+                                    },
+                                    {
+                                        "intercept": -39.68504105099618
+                                    }
+                                ],
+                                "op": "<=",
+                                "rhs": 0
+                            },
+                            "edge_label": "true"
+                        },
+                        {
+                            "actual_label": [
+                                "0",
+                                "-2"
+                            ],
+                            "children": [],
+                            "split": null,
+                            "edge_label": "false"
+                        }
+                    ],
+                    "split": {
+                        "lhs": {
+                            "coeff": 1,
+                            "var": "vE"
+                        },
+                        "op": "<=",
+                        "rhs": 19.0
+                    },
+                    "edge_label": "false"
+                }
+            ],
+            "split": {
+                "lhs": {
+                    "coeff": 1,
+                    "var": "vE"
+                },
+                "op": "<=",
+                "rhs": -5.0
+            },
+            "edge_label": "true"
+        },
+        {
+            "actual_label": [
+                "-2"
+            ],
+            "children": [],
+            "split": null,
+            "edge_label": "false"
+        }
+    ],
+    "split": {
+        "lhs": [
+            {
+                "coeff": -9.002287237624496e-05,
+                "var": "d^2"
+            },
+            {
+                "coeff": 0.00161617137230506,
+                "var": "d*vE"
+            },
+            {
+                "coeff": 0.48279758357040903,
+                "var": "vE^2"
+            },
+            {
+                "coeff": -0.0009899016964783607,
+                "var": "d*vF"
+            },
+            {
+                "coeff": 0.00883291192599904,
+                "var": "vE*vF"
+            },
+            {
+                "coeff": -0.49244842190366,
+                "var": "vF^2"
+            },
+            {
+                "coeff": -1.9610461526160363,
+                "var": "d"
+            },
+            {
+                "coeff": 7.84881870992262,
+                "var": "vE"
+            },
+            {
+                "coeff": -5.8881472828558605,
+                "var": "vF"
+            },
+            {
+                "intercept": 22.54540193942359
+            }
+        ],
+        "op": "<=",
+        "rhs": 0
+    }
+}
